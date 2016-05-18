@@ -1,0 +1,86 @@
+@import "math";
+
+
+$overlay-color: rgba(0, 255, 0, 0.5);
+$overlay-opacity: 0.1;
+
+.cooldown-wrap {
+    box-sizing: border-box;
+    overflow: hidden;
+    $size: 100%;
+    //we cannot use $size if size is in percentage so we just use huge value (overflow is hidden anyway)
+    //vmax would be safer, but that has worse IE support, vmin should be enough most of the time unless it's fullscreen
+    $border-size: 100vmin;
+
+    .overlay-wrap {
+        box-sizing: border-box;
+        height: $size;
+        width: $size;
+        position: relative;
+        transform-origin: center center;
+        opacity: $overlay-opacity;
+        
+        & > * {
+            box-sizing: border-box;
+            position: absolute;
+            color: transparent;
+            display: block; 
+            height: $size;
+            width: $size;
+            background-color: $overlay-color;
+            &.q1 {
+                left: $size / 2;
+                bottom: $size / 2;
+
+            }
+            &.q2 {
+                left: $size / 2;
+                top: $size / 2;
+            }
+            &.q3 {
+                right: $size / 2;
+                top: $size / 2;
+            }
+            &.q4 {
+                right: $size / 2;
+                bottom: $size / 2;
+            }
+        }
+    }
+    
+    @for $i from 1deg through 90deg {
+        &.p#{$i + 270deg}, &.p#{$i + 180deg}, &.p#{$i + 90deg}, &.p#{$i} {
+            .overlay-wrap {
+                transform: rotate(#{$i});
+                .q4 {
+                    background-color: transparent;
+                    height: 0;
+                    width: 0;
+                    border-bottom: $border-size solid $overlay-color;
+                    border-right: $border-size * tan($i) solid transparent;
+                }
+            }
+        }
+        &.p#{$i + 270deg}, &.p#{$i + 180deg}, &.p#{$i + 90deg} {
+            .overlay-wrap {
+                .q1 {
+                    visibility: hidden;
+                }
+            }
+        }
+        &.p#{$i + 270deg}, &.p#{$i + 180deg} {
+            .overlay-wrap {
+                .q2 {
+                    visibility: hidden;
+                }
+            }
+        }
+        &.p#{$i + 270deg} {
+            .overlay-wrap {
+                .q3 {
+                    visibility: hidden;
+                }
+            }
+        }
+    }
+}
