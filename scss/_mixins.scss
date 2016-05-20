@@ -2,6 +2,72 @@
 @import "settings";
 
 
+@mixing animateWrap($seconds, $color, $opacity) {
+    
+}
+
+
+@keyframes overlay-wrap-animate {
+    @for $percentage from 1 through 100 {
+        $angle90max: round($percentage * 3.6deg % 90deg);
+        #{$percentage * 1%} {
+            -webkit-transform: rotate(#{$angle90max});
+            transform: rotate(#{$angle90max});
+        } 
+    }
+}
+
+@keyframes q4-animate {
+    @for $percentage from 0 through 360 {
+        $angle90max: round($percentage * 3.6deg % 90deg);
+        #{$percentage * 1%} {
+            @if $angle90max > 0deg {
+                background-color: transparent;
+                height: 0;
+                width: 0;
+                border-bottom-width: $border-size;
+                border-right-width: $border-size * tan($angle90max);
+            }
+        } 
+    }
+}
+
+@keyframes q3-animate {
+    @for $percentage from 0 through 360 {
+        $angle: round($percentage * 3.6deg);
+        $angle90max: round($percentage * 3.6deg % 90deg);
+        #{$percentage * 1%} {
+            @if $angle >  270deg {
+                visibility: hidden;
+            }
+        } 
+    }
+}
+
+@keyframes q2-animate {
+    @for $percentage from 0 through 360 {
+        $angle: round($percentage * 3.6deg);
+        $angle90max: round($percentage * 3.6deg % 90deg);
+        #{$percentage * 1%} {
+            @if $angle >  180deg {
+                visibility: hidden;
+            }
+        } 
+    }
+}
+
+@keyframes q1-animate {
+    @for $percentage from 0 through 360 {
+        $angle: round($percentage * 3.6deg);
+        $angle90max: round($percentage * 3.6deg % 90deg);
+        #{$percentage * 1%} {
+            @if $angle >  90deg {
+                visibility: hidden;
+            }
+        } 
+    }
+}
+
 @mixin cooldownWrap($color, $opacity) {
     box-sizing: border-box;
     overflow: hidden;
@@ -39,11 +105,45 @@
             &.q4 {
                 right: $size / 2;
                 bottom: $size / 2;
+                border-bottom-color: $color;
+                border-bottom-style: solid;
+                border-bottom-width: 0;
+                border-right-color: transparent;
+                border-right-style: solid;
+                border-right-width: 0;
             }
         }
     }
     @for $i from 1deg through 360deg {
         @include cooldownByAngle($i, $color);
+    }
+    &.animated {
+        $anim-duration: 360s;
+        .overlay-wrap {
+            animation-name: overlay-wrap-animate;
+            animation-duration: $anim-duration;
+            animation-iteration-count: infinite; 
+            .q4 {
+                animation-name: q4-animate;
+                animation-duration: $anim-duration;
+                animation-iteration-count: infinite; 
+            }
+            .q3 {
+                animation-name: q3-animate;
+                animation-duration: $anim-duration;
+                animation-iteration-count: infinite; 
+            }
+            .q2 {
+                animation-name: q2-animate;
+                animation-duration: $anim-duration;
+                animation-iteration-count: infinite; 
+            }
+            .q1 {
+                animation-name: q1-animate;
+                animation-duration: $anim-duration;
+                animation-iteration-count: infinite; 
+            }
+        }
     }
 }
 
@@ -58,8 +158,8 @@
                     background-color: transparent;
                     height: 0;
                     width: 0;
-                    border-bottom: $border-size solid $color;
-                    border-right: $border-size * tan($angle90max) solid transparent;
+                    border-bottom-width: $border-size;
+                    border-right-width: $border-size * tan($angle90max);
                 }
             }
             @if $angle >=  90deg {

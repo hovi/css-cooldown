@@ -4,6 +4,7 @@
 
 //custom example code
 
+
 .cooldown-basic {
     height: 100px;
     width: 100px;
@@ -28,9 +29,9 @@
         border-radius: 50%;
     }
     &.red {
-        @include cooldownWrap(red, 0.9);
+        //@include cooldownWrap(red, 0.9);
     }
     &.blue {
-        @include cooldownWrap(blue, 0.5);
+        //@include cooldownWrap(blue, 0.5);
     }
 }
