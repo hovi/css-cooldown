@@ -37,3 +37,39 @@ https://unindented.org/articles/trigonometry-in-sass/
 $overlay-color: rgba(0, 255, 0, 0.5);
 $overlay-opacity: 0.1;
 ```
+
+## Customization
+
+You can customize css by using cooldownWrap mixin and set your own overlay-color and overlay-opacity parameters:
+```scss
+.cooldown-basic {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    display: inline-block;
+    position: relative;
+    .bottom {
+        font-size: 14px;
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 10px;
+    }
+}
+
+.cooldown-wrap {
+    @extend .cooldown-basic;
+    @include cooldownWrap($overlay-color, $overlay-opacity);
+    &.circle {
+        border-radius: 50%;
+    }
+    &.red {
+        @include cooldownWrap(red, 1);
+    }
+    &.blue {
+        @include cooldownWrap(blue, 0.5);
+    }
+}
+```
