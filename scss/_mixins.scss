@@ -2,7 +2,52 @@
 @import "settings";
 
 
-@mixin cooldownByAngle($angle) {
+@mixin cooldownWrap($color, $opacity) {
+    box-sizing: border-box;
+    overflow: hidden;
+    $size: 100%;
+
+    .overlay-wrap {
+        box-sizing: border-box;
+        height: $size;
+        width: $size;
+        position: relative;
+        transform-origin: center center;
+        opacity: $opacity;
+
+        & > * {
+            box-sizing: border-box;
+            position: absolute;
+            color: transparent;
+            display: block; 
+            height: $size;
+            width: $size;
+            background-color: $color;
+            &.q1 {
+                left: $size / 2;
+                bottom: $size / 2;
+
+            }
+            &.q2 {
+                left: $size / 2;
+                top: $size / 2;
+            }
+            &.q3 {
+                right: $size / 2;
+                top: $size / 2;
+            }
+            &.q4 {
+                right: $size / 2;
+                bottom: $size / 2;
+            }
+        }
+    }
+    @for $i from 1deg through 360deg {
+        @include cooldownByAngle($i, $color);
+    }
+}
+
+@mixin cooldownByAngle($angle, $color) {
     $angle: round($angle);
     $angle90max: $angle % 90;
     &.p#{$angle} {
@@ -13,7 +58,7 @@
                     background-color: transparent;
                     height: 0;
                     width: 0;
-                    border-bottom: $border-size solid $overlay-color;
+                    border-bottom: $border-size solid $color;
                     border-right: $border-size * tan($angle90max) solid transparent;
                 }
             }

@@ -1,8 +1,10 @@
-@import "cooldown";
+@import "settings";
+@import "mixins";
 
 
 //custom example code
-.cooldown-wrap {
+
+.cooldown-basic {
     height: 100px;
     width: 100px;
     border: 1px solid black;
@@ -16,5 +18,19 @@
         left: 0;
         right: 0;
         padding: 10px;
+    }
+}
+
+.cooldown-wrap {
+    @extend .cooldown-basic;
+    @include cooldownWrap($overlay-color, $overlay-opacity);
+    &.circle {
+        border-radius: 50%;
+    }
+    &.red {
+        @include cooldownWrap(red, $overlay-opacity);
+    }
+    &.blue {
+        @include cooldownWrap(blue, $overlay-opacity);
     }
 }
