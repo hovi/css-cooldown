@@ -1,0 +1,1307 @@
+.cooldown-wrap {
+  box-sizing: border-box;
+  overflow: hidden; }
+  .cooldown-wrap .overlay-wrap {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transform-origin: center center;
+    opacity: 0.1; }
+    .cooldown-wrap .overlay-wrap > * {
+      box-sizing: border-box;
+      position: absolute;
+      color: transparent;
+      display: block;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(0, 255, 0, 0.5); }
+      .cooldown-wrap .overlay-wrap > *.q1 {
+        left: 50%;
+        bottom: 50%; }
+      .cooldown-wrap .overlay-wrap > *.q2 {
+        left: 50%;
+        top: 50%; }
+      .cooldown-wrap .overlay-wrap > *.q3 {
+        right: 50%;
+        top: 50%; }
+      .cooldown-wrap .overlay-wrap > *.q4 {
+        right: 50%;
+        bottom: 50%; }
+  .cooldown-wrap.p271deg .overlay-wrap, .cooldown-wrap.p181deg .overlay-wrap, .cooldown-wrap.p91deg .overlay-wrap, .cooldown-wrap.p1deg .overlay-wrap {
+    transform: rotate(1deg); }
+    .cooldown-wrap.p271deg .overlay-wrap .q4, .cooldown-wrap.p181deg .overlay-wrap .q4, .cooldown-wrap.p91deg .overlay-wrap .q4, .cooldown-wrap.p1deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 1.74551vmin solid transparent; }
+  .cooldown-wrap.p271deg .overlay-wrap .q1, .cooldown-wrap.p181deg .overlay-wrap .q1, .cooldown-wrap.p91deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p271deg .overlay-wrap .q2, .cooldown-wrap.p181deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p271deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p272deg .overlay-wrap, .cooldown-wrap.p182deg .overlay-wrap, .cooldown-wrap.p92deg .overlay-wrap, .cooldown-wrap.p2deg .overlay-wrap {
+    transform: rotate(2deg); }
+    .cooldown-wrap.p272deg .overlay-wrap .q4, .cooldown-wrap.p182deg .overlay-wrap .q4, .cooldown-wrap.p92deg .overlay-wrap .q4, .cooldown-wrap.p2deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 3.49208vmin solid transparent; }
+  .cooldown-wrap.p272deg .overlay-wrap .q1, .cooldown-wrap.p182deg .overlay-wrap .q1, .cooldown-wrap.p92deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p272deg .overlay-wrap .q2, .cooldown-wrap.p182deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p272deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p273deg .overlay-wrap, .cooldown-wrap.p183deg .overlay-wrap, .cooldown-wrap.p93deg .overlay-wrap, .cooldown-wrap.p3deg .overlay-wrap {
+    transform: rotate(3deg); }
+    .cooldown-wrap.p273deg .overlay-wrap .q4, .cooldown-wrap.p183deg .overlay-wrap .q4, .cooldown-wrap.p93deg .overlay-wrap .q4, .cooldown-wrap.p3deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 5.24078vmin solid transparent; }
+  .cooldown-wrap.p273deg .overlay-wrap .q1, .cooldown-wrap.p183deg .overlay-wrap .q1, .cooldown-wrap.p93deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p273deg .overlay-wrap .q2, .cooldown-wrap.p183deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p273deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p274deg .overlay-wrap, .cooldown-wrap.p184deg .overlay-wrap, .cooldown-wrap.p94deg .overlay-wrap, .cooldown-wrap.p4deg .overlay-wrap {
+    transform: rotate(4deg); }
+    .cooldown-wrap.p274deg .overlay-wrap .q4, .cooldown-wrap.p184deg .overlay-wrap .q4, .cooldown-wrap.p94deg .overlay-wrap .q4, .cooldown-wrap.p4deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 6.99268vmin solid transparent; }
+  .cooldown-wrap.p274deg .overlay-wrap .q1, .cooldown-wrap.p184deg .overlay-wrap .q1, .cooldown-wrap.p94deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p274deg .overlay-wrap .q2, .cooldown-wrap.p184deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p274deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p275deg .overlay-wrap, .cooldown-wrap.p185deg .overlay-wrap, .cooldown-wrap.p95deg .overlay-wrap, .cooldown-wrap.p5deg .overlay-wrap {
+    transform: rotate(5deg); }
+    .cooldown-wrap.p275deg .overlay-wrap .q4, .cooldown-wrap.p185deg .overlay-wrap .q4, .cooldown-wrap.p95deg .overlay-wrap .q4, .cooldown-wrap.p5deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 8.74887vmin solid transparent; }
+  .cooldown-wrap.p275deg .overlay-wrap .q1, .cooldown-wrap.p185deg .overlay-wrap .q1, .cooldown-wrap.p95deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p275deg .overlay-wrap .q2, .cooldown-wrap.p185deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p275deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p276deg .overlay-wrap, .cooldown-wrap.p186deg .overlay-wrap, .cooldown-wrap.p96deg .overlay-wrap, .cooldown-wrap.p6deg .overlay-wrap {
+    transform: rotate(6deg); }
+    .cooldown-wrap.p276deg .overlay-wrap .q4, .cooldown-wrap.p186deg .overlay-wrap .q4, .cooldown-wrap.p96deg .overlay-wrap .q4, .cooldown-wrap.p6deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 10.51042vmin solid transparent; }
+  .cooldown-wrap.p276deg .overlay-wrap .q1, .cooldown-wrap.p186deg .overlay-wrap .q1, .cooldown-wrap.p96deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p276deg .overlay-wrap .q2, .cooldown-wrap.p186deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p276deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p277deg .overlay-wrap, .cooldown-wrap.p187deg .overlay-wrap, .cooldown-wrap.p97deg .overlay-wrap, .cooldown-wrap.p7deg .overlay-wrap {
+    transform: rotate(7deg); }
+    .cooldown-wrap.p277deg .overlay-wrap .q4, .cooldown-wrap.p187deg .overlay-wrap .q4, .cooldown-wrap.p97deg .overlay-wrap .q4, .cooldown-wrap.p7deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 12.27846vmin solid transparent; }
+  .cooldown-wrap.p277deg .overlay-wrap .q1, .cooldown-wrap.p187deg .overlay-wrap .q1, .cooldown-wrap.p97deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p277deg .overlay-wrap .q2, .cooldown-wrap.p187deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p277deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p278deg .overlay-wrap, .cooldown-wrap.p188deg .overlay-wrap, .cooldown-wrap.p98deg .overlay-wrap, .cooldown-wrap.p8deg .overlay-wrap {
+    transform: rotate(8deg); }
+    .cooldown-wrap.p278deg .overlay-wrap .q4, .cooldown-wrap.p188deg .overlay-wrap .q4, .cooldown-wrap.p98deg .overlay-wrap .q4, .cooldown-wrap.p8deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 14.05408vmin solid transparent; }
+  .cooldown-wrap.p278deg .overlay-wrap .q1, .cooldown-wrap.p188deg .overlay-wrap .q1, .cooldown-wrap.p98deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p278deg .overlay-wrap .q2, .cooldown-wrap.p188deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p278deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p279deg .overlay-wrap, .cooldown-wrap.p189deg .overlay-wrap, .cooldown-wrap.p99deg .overlay-wrap, .cooldown-wrap.p9deg .overlay-wrap {
+    transform: rotate(9deg); }
+    .cooldown-wrap.p279deg .overlay-wrap .q4, .cooldown-wrap.p189deg .overlay-wrap .q4, .cooldown-wrap.p99deg .overlay-wrap .q4, .cooldown-wrap.p9deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 15.83844vmin solid transparent; }
+  .cooldown-wrap.p279deg .overlay-wrap .q1, .cooldown-wrap.p189deg .overlay-wrap .q1, .cooldown-wrap.p99deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p279deg .overlay-wrap .q2, .cooldown-wrap.p189deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p279deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p280deg .overlay-wrap, .cooldown-wrap.p190deg .overlay-wrap, .cooldown-wrap.p100deg .overlay-wrap, .cooldown-wrap.p10deg .overlay-wrap {
+    transform: rotate(10deg); }
+    .cooldown-wrap.p280deg .overlay-wrap .q4, .cooldown-wrap.p190deg .overlay-wrap .q4, .cooldown-wrap.p100deg .overlay-wrap .q4, .cooldown-wrap.p10deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 17.6327vmin solid transparent; }
+  .cooldown-wrap.p280deg .overlay-wrap .q1, .cooldown-wrap.p190deg .overlay-wrap .q1, .cooldown-wrap.p100deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p280deg .overlay-wrap .q2, .cooldown-wrap.p190deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p280deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p281deg .overlay-wrap, .cooldown-wrap.p191deg .overlay-wrap, .cooldown-wrap.p101deg .overlay-wrap, .cooldown-wrap.p11deg .overlay-wrap {
+    transform: rotate(11deg); }
+    .cooldown-wrap.p281deg .overlay-wrap .q4, .cooldown-wrap.p191deg .overlay-wrap .q4, .cooldown-wrap.p101deg .overlay-wrap .q4, .cooldown-wrap.p11deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 19.43803vmin solid transparent; }
+  .cooldown-wrap.p281deg .overlay-wrap .q1, .cooldown-wrap.p191deg .overlay-wrap .q1, .cooldown-wrap.p101deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p281deg .overlay-wrap .q2, .cooldown-wrap.p191deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p281deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p282deg .overlay-wrap, .cooldown-wrap.p192deg .overlay-wrap, .cooldown-wrap.p102deg .overlay-wrap, .cooldown-wrap.p12deg .overlay-wrap {
+    transform: rotate(12deg); }
+    .cooldown-wrap.p282deg .overlay-wrap .q4, .cooldown-wrap.p192deg .overlay-wrap .q4, .cooldown-wrap.p102deg .overlay-wrap .q4, .cooldown-wrap.p12deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 21.25566vmin solid transparent; }
+  .cooldown-wrap.p282deg .overlay-wrap .q1, .cooldown-wrap.p192deg .overlay-wrap .q1, .cooldown-wrap.p102deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p282deg .overlay-wrap .q2, .cooldown-wrap.p192deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p282deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p283deg .overlay-wrap, .cooldown-wrap.p193deg .overlay-wrap, .cooldown-wrap.p103deg .overlay-wrap, .cooldown-wrap.p13deg .overlay-wrap {
+    transform: rotate(13deg); }
+    .cooldown-wrap.p283deg .overlay-wrap .q4, .cooldown-wrap.p193deg .overlay-wrap .q4, .cooldown-wrap.p103deg .overlay-wrap .q4, .cooldown-wrap.p13deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 23.08682vmin solid transparent; }
+  .cooldown-wrap.p283deg .overlay-wrap .q1, .cooldown-wrap.p193deg .overlay-wrap .q1, .cooldown-wrap.p103deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p283deg .overlay-wrap .q2, .cooldown-wrap.p193deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p283deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p284deg .overlay-wrap, .cooldown-wrap.p194deg .overlay-wrap, .cooldown-wrap.p104deg .overlay-wrap, .cooldown-wrap.p14deg .overlay-wrap {
+    transform: rotate(14deg); }
+    .cooldown-wrap.p284deg .overlay-wrap .q4, .cooldown-wrap.p194deg .overlay-wrap .q4, .cooldown-wrap.p104deg .overlay-wrap .q4, .cooldown-wrap.p14deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 24.9328vmin solid transparent; }
+  .cooldown-wrap.p284deg .overlay-wrap .q1, .cooldown-wrap.p194deg .overlay-wrap .q1, .cooldown-wrap.p104deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p284deg .overlay-wrap .q2, .cooldown-wrap.p194deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p284deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p285deg .overlay-wrap, .cooldown-wrap.p195deg .overlay-wrap, .cooldown-wrap.p105deg .overlay-wrap, .cooldown-wrap.p15deg .overlay-wrap {
+    transform: rotate(15deg); }
+    .cooldown-wrap.p285deg .overlay-wrap .q4, .cooldown-wrap.p195deg .overlay-wrap .q4, .cooldown-wrap.p105deg .overlay-wrap .q4, .cooldown-wrap.p15deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 26.79492vmin solid transparent; }
+  .cooldown-wrap.p285deg .overlay-wrap .q1, .cooldown-wrap.p195deg .overlay-wrap .q1, .cooldown-wrap.p105deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p285deg .overlay-wrap .q2, .cooldown-wrap.p195deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p285deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p286deg .overlay-wrap, .cooldown-wrap.p196deg .overlay-wrap, .cooldown-wrap.p106deg .overlay-wrap, .cooldown-wrap.p16deg .overlay-wrap {
+    transform: rotate(16deg); }
+    .cooldown-wrap.p286deg .overlay-wrap .q4, .cooldown-wrap.p196deg .overlay-wrap .q4, .cooldown-wrap.p106deg .overlay-wrap .q4, .cooldown-wrap.p16deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 28.67454vmin solid transparent; }
+  .cooldown-wrap.p286deg .overlay-wrap .q1, .cooldown-wrap.p196deg .overlay-wrap .q1, .cooldown-wrap.p106deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p286deg .overlay-wrap .q2, .cooldown-wrap.p196deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p286deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p287deg .overlay-wrap, .cooldown-wrap.p197deg .overlay-wrap, .cooldown-wrap.p107deg .overlay-wrap, .cooldown-wrap.p17deg .overlay-wrap {
+    transform: rotate(17deg); }
+    .cooldown-wrap.p287deg .overlay-wrap .q4, .cooldown-wrap.p197deg .overlay-wrap .q4, .cooldown-wrap.p107deg .overlay-wrap .q4, .cooldown-wrap.p17deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 30.57307vmin solid transparent; }
+  .cooldown-wrap.p287deg .overlay-wrap .q1, .cooldown-wrap.p197deg .overlay-wrap .q1, .cooldown-wrap.p107deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p287deg .overlay-wrap .q2, .cooldown-wrap.p197deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p287deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p288deg .overlay-wrap, .cooldown-wrap.p198deg .overlay-wrap, .cooldown-wrap.p108deg .overlay-wrap, .cooldown-wrap.p18deg .overlay-wrap {
+    transform: rotate(18deg); }
+    .cooldown-wrap.p288deg .overlay-wrap .q4, .cooldown-wrap.p198deg .overlay-wrap .q4, .cooldown-wrap.p108deg .overlay-wrap .q4, .cooldown-wrap.p18deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 32.49197vmin solid transparent; }
+  .cooldown-wrap.p288deg .overlay-wrap .q1, .cooldown-wrap.p198deg .overlay-wrap .q1, .cooldown-wrap.p108deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p288deg .overlay-wrap .q2, .cooldown-wrap.p198deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p288deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p289deg .overlay-wrap, .cooldown-wrap.p199deg .overlay-wrap, .cooldown-wrap.p109deg .overlay-wrap, .cooldown-wrap.p19deg .overlay-wrap {
+    transform: rotate(19deg); }
+    .cooldown-wrap.p289deg .overlay-wrap .q4, .cooldown-wrap.p199deg .overlay-wrap .q4, .cooldown-wrap.p109deg .overlay-wrap .q4, .cooldown-wrap.p19deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 34.43276vmin solid transparent; }
+  .cooldown-wrap.p289deg .overlay-wrap .q1, .cooldown-wrap.p199deg .overlay-wrap .q1, .cooldown-wrap.p109deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p289deg .overlay-wrap .q2, .cooldown-wrap.p199deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p289deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p290deg .overlay-wrap, .cooldown-wrap.p200deg .overlay-wrap, .cooldown-wrap.p110deg .overlay-wrap, .cooldown-wrap.p20deg .overlay-wrap {
+    transform: rotate(20deg); }
+    .cooldown-wrap.p290deg .overlay-wrap .q4, .cooldown-wrap.p200deg .overlay-wrap .q4, .cooldown-wrap.p110deg .overlay-wrap .q4, .cooldown-wrap.p20deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 36.39702vmin solid transparent; }
+  .cooldown-wrap.p290deg .overlay-wrap .q1, .cooldown-wrap.p200deg .overlay-wrap .q1, .cooldown-wrap.p110deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p290deg .overlay-wrap .q2, .cooldown-wrap.p200deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p290deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p291deg .overlay-wrap, .cooldown-wrap.p201deg .overlay-wrap, .cooldown-wrap.p111deg .overlay-wrap, .cooldown-wrap.p21deg .overlay-wrap {
+    transform: rotate(21deg); }
+    .cooldown-wrap.p291deg .overlay-wrap .q4, .cooldown-wrap.p201deg .overlay-wrap .q4, .cooldown-wrap.p111deg .overlay-wrap .q4, .cooldown-wrap.p21deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 38.3864vmin solid transparent; }
+  .cooldown-wrap.p291deg .overlay-wrap .q1, .cooldown-wrap.p201deg .overlay-wrap .q1, .cooldown-wrap.p111deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p291deg .overlay-wrap .q2, .cooldown-wrap.p201deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p291deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p292deg .overlay-wrap, .cooldown-wrap.p202deg .overlay-wrap, .cooldown-wrap.p112deg .overlay-wrap, .cooldown-wrap.p22deg .overlay-wrap {
+    transform: rotate(22deg); }
+    .cooldown-wrap.p292deg .overlay-wrap .q4, .cooldown-wrap.p202deg .overlay-wrap .q4, .cooldown-wrap.p112deg .overlay-wrap .q4, .cooldown-wrap.p22deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 40.40262vmin solid transparent; }
+  .cooldown-wrap.p292deg .overlay-wrap .q1, .cooldown-wrap.p202deg .overlay-wrap .q1, .cooldown-wrap.p112deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p292deg .overlay-wrap .q2, .cooldown-wrap.p202deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p292deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p293deg .overlay-wrap, .cooldown-wrap.p203deg .overlay-wrap, .cooldown-wrap.p113deg .overlay-wrap, .cooldown-wrap.p23deg .overlay-wrap {
+    transform: rotate(23deg); }
+    .cooldown-wrap.p293deg .overlay-wrap .q4, .cooldown-wrap.p203deg .overlay-wrap .q4, .cooldown-wrap.p113deg .overlay-wrap .q4, .cooldown-wrap.p23deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 42.44748vmin solid transparent; }
+  .cooldown-wrap.p293deg .overlay-wrap .q1, .cooldown-wrap.p203deg .overlay-wrap .q1, .cooldown-wrap.p113deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p293deg .overlay-wrap .q2, .cooldown-wrap.p203deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p293deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p294deg .overlay-wrap, .cooldown-wrap.p204deg .overlay-wrap, .cooldown-wrap.p114deg .overlay-wrap, .cooldown-wrap.p24deg .overlay-wrap {
+    transform: rotate(24deg); }
+    .cooldown-wrap.p294deg .overlay-wrap .q4, .cooldown-wrap.p204deg .overlay-wrap .q4, .cooldown-wrap.p114deg .overlay-wrap .q4, .cooldown-wrap.p24deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 44.52287vmin solid transparent; }
+  .cooldown-wrap.p294deg .overlay-wrap .q1, .cooldown-wrap.p204deg .overlay-wrap .q1, .cooldown-wrap.p114deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p294deg .overlay-wrap .q2, .cooldown-wrap.p204deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p294deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p295deg .overlay-wrap, .cooldown-wrap.p205deg .overlay-wrap, .cooldown-wrap.p115deg .overlay-wrap, .cooldown-wrap.p25deg .overlay-wrap {
+    transform: rotate(25deg); }
+    .cooldown-wrap.p295deg .overlay-wrap .q4, .cooldown-wrap.p205deg .overlay-wrap .q4, .cooldown-wrap.p115deg .overlay-wrap .q4, .cooldown-wrap.p25deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 46.63077vmin solid transparent; }
+  .cooldown-wrap.p295deg .overlay-wrap .q1, .cooldown-wrap.p205deg .overlay-wrap .q1, .cooldown-wrap.p115deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p295deg .overlay-wrap .q2, .cooldown-wrap.p205deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p295deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p296deg .overlay-wrap, .cooldown-wrap.p206deg .overlay-wrap, .cooldown-wrap.p116deg .overlay-wrap, .cooldown-wrap.p26deg .overlay-wrap {
+    transform: rotate(26deg); }
+    .cooldown-wrap.p296deg .overlay-wrap .q4, .cooldown-wrap.p206deg .overlay-wrap .q4, .cooldown-wrap.p116deg .overlay-wrap .q4, .cooldown-wrap.p26deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 48.77326vmin solid transparent; }
+  .cooldown-wrap.p296deg .overlay-wrap .q1, .cooldown-wrap.p206deg .overlay-wrap .q1, .cooldown-wrap.p116deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p296deg .overlay-wrap .q2, .cooldown-wrap.p206deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p296deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p297deg .overlay-wrap, .cooldown-wrap.p207deg .overlay-wrap, .cooldown-wrap.p117deg .overlay-wrap, .cooldown-wrap.p27deg .overlay-wrap {
+    transform: rotate(27deg); }
+    .cooldown-wrap.p297deg .overlay-wrap .q4, .cooldown-wrap.p207deg .overlay-wrap .q4, .cooldown-wrap.p117deg .overlay-wrap .q4, .cooldown-wrap.p27deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 50.95254vmin solid transparent; }
+  .cooldown-wrap.p297deg .overlay-wrap .q1, .cooldown-wrap.p207deg .overlay-wrap .q1, .cooldown-wrap.p117deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p297deg .overlay-wrap .q2, .cooldown-wrap.p207deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p297deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p298deg .overlay-wrap, .cooldown-wrap.p208deg .overlay-wrap, .cooldown-wrap.p118deg .overlay-wrap, .cooldown-wrap.p28deg .overlay-wrap {
+    transform: rotate(28deg); }
+    .cooldown-wrap.p298deg .overlay-wrap .q4, .cooldown-wrap.p208deg .overlay-wrap .q4, .cooldown-wrap.p118deg .overlay-wrap .q4, .cooldown-wrap.p28deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 53.17094vmin solid transparent; }
+  .cooldown-wrap.p298deg .overlay-wrap .q1, .cooldown-wrap.p208deg .overlay-wrap .q1, .cooldown-wrap.p118deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p298deg .overlay-wrap .q2, .cooldown-wrap.p208deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p298deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p299deg .overlay-wrap, .cooldown-wrap.p209deg .overlay-wrap, .cooldown-wrap.p119deg .overlay-wrap, .cooldown-wrap.p29deg .overlay-wrap {
+    transform: rotate(29deg); }
+    .cooldown-wrap.p299deg .overlay-wrap .q4, .cooldown-wrap.p209deg .overlay-wrap .q4, .cooldown-wrap.p119deg .overlay-wrap .q4, .cooldown-wrap.p29deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 55.43091vmin solid transparent; }
+  .cooldown-wrap.p299deg .overlay-wrap .q1, .cooldown-wrap.p209deg .overlay-wrap .q1, .cooldown-wrap.p119deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p299deg .overlay-wrap .q2, .cooldown-wrap.p209deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p299deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p300deg .overlay-wrap, .cooldown-wrap.p210deg .overlay-wrap, .cooldown-wrap.p120deg .overlay-wrap, .cooldown-wrap.p30deg .overlay-wrap {
+    transform: rotate(30deg); }
+    .cooldown-wrap.p300deg .overlay-wrap .q4, .cooldown-wrap.p210deg .overlay-wrap .q4, .cooldown-wrap.p120deg .overlay-wrap .q4, .cooldown-wrap.p30deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 57.73503vmin solid transparent; }
+  .cooldown-wrap.p300deg .overlay-wrap .q1, .cooldown-wrap.p210deg .overlay-wrap .q1, .cooldown-wrap.p120deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p300deg .overlay-wrap .q2, .cooldown-wrap.p210deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p300deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p301deg .overlay-wrap, .cooldown-wrap.p211deg .overlay-wrap, .cooldown-wrap.p121deg .overlay-wrap, .cooldown-wrap.p31deg .overlay-wrap {
+    transform: rotate(31deg); }
+    .cooldown-wrap.p301deg .overlay-wrap .q4, .cooldown-wrap.p211deg .overlay-wrap .q4, .cooldown-wrap.p121deg .overlay-wrap .q4, .cooldown-wrap.p31deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 60.08606vmin solid transparent; }
+  .cooldown-wrap.p301deg .overlay-wrap .q1, .cooldown-wrap.p211deg .overlay-wrap .q1, .cooldown-wrap.p121deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p301deg .overlay-wrap .q2, .cooldown-wrap.p211deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p301deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p302deg .overlay-wrap, .cooldown-wrap.p212deg .overlay-wrap, .cooldown-wrap.p122deg .overlay-wrap, .cooldown-wrap.p32deg .overlay-wrap {
+    transform: rotate(32deg); }
+    .cooldown-wrap.p302deg .overlay-wrap .q4, .cooldown-wrap.p212deg .overlay-wrap .q4, .cooldown-wrap.p122deg .overlay-wrap .q4, .cooldown-wrap.p32deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 62.48694vmin solid transparent; }
+  .cooldown-wrap.p302deg .overlay-wrap .q1, .cooldown-wrap.p212deg .overlay-wrap .q1, .cooldown-wrap.p122deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p302deg .overlay-wrap .q2, .cooldown-wrap.p212deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p302deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p303deg .overlay-wrap, .cooldown-wrap.p213deg .overlay-wrap, .cooldown-wrap.p123deg .overlay-wrap, .cooldown-wrap.p33deg .overlay-wrap {
+    transform: rotate(33deg); }
+    .cooldown-wrap.p303deg .overlay-wrap .q4, .cooldown-wrap.p213deg .overlay-wrap .q4, .cooldown-wrap.p123deg .overlay-wrap .q4, .cooldown-wrap.p33deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 64.94076vmin solid transparent; }
+  .cooldown-wrap.p303deg .overlay-wrap .q1, .cooldown-wrap.p213deg .overlay-wrap .q1, .cooldown-wrap.p123deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p303deg .overlay-wrap .q2, .cooldown-wrap.p213deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p303deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p304deg .overlay-wrap, .cooldown-wrap.p214deg .overlay-wrap, .cooldown-wrap.p124deg .overlay-wrap, .cooldown-wrap.p34deg .overlay-wrap {
+    transform: rotate(34deg); }
+    .cooldown-wrap.p304deg .overlay-wrap .q4, .cooldown-wrap.p214deg .overlay-wrap .q4, .cooldown-wrap.p124deg .overlay-wrap .q4, .cooldown-wrap.p34deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 67.45085vmin solid transparent; }
+  .cooldown-wrap.p304deg .overlay-wrap .q1, .cooldown-wrap.p214deg .overlay-wrap .q1, .cooldown-wrap.p124deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p304deg .overlay-wrap .q2, .cooldown-wrap.p214deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p304deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p305deg .overlay-wrap, .cooldown-wrap.p215deg .overlay-wrap, .cooldown-wrap.p125deg .overlay-wrap, .cooldown-wrap.p35deg .overlay-wrap {
+    transform: rotate(35deg); }
+    .cooldown-wrap.p305deg .overlay-wrap .q4, .cooldown-wrap.p215deg .overlay-wrap .q4, .cooldown-wrap.p125deg .overlay-wrap .q4, .cooldown-wrap.p35deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 70.02075vmin solid transparent; }
+  .cooldown-wrap.p305deg .overlay-wrap .q1, .cooldown-wrap.p215deg .overlay-wrap .q1, .cooldown-wrap.p125deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p305deg .overlay-wrap .q2, .cooldown-wrap.p215deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p305deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p306deg .overlay-wrap, .cooldown-wrap.p216deg .overlay-wrap, .cooldown-wrap.p126deg .overlay-wrap, .cooldown-wrap.p36deg .overlay-wrap {
+    transform: rotate(36deg); }
+    .cooldown-wrap.p306deg .overlay-wrap .q4, .cooldown-wrap.p216deg .overlay-wrap .q4, .cooldown-wrap.p126deg .overlay-wrap .q4, .cooldown-wrap.p36deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 72.65425vmin solid transparent; }
+  .cooldown-wrap.p306deg .overlay-wrap .q1, .cooldown-wrap.p216deg .overlay-wrap .q1, .cooldown-wrap.p126deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p306deg .overlay-wrap .q2, .cooldown-wrap.p216deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p306deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p307deg .overlay-wrap, .cooldown-wrap.p217deg .overlay-wrap, .cooldown-wrap.p127deg .overlay-wrap, .cooldown-wrap.p37deg .overlay-wrap {
+    transform: rotate(37deg); }
+    .cooldown-wrap.p307deg .overlay-wrap .q4, .cooldown-wrap.p217deg .overlay-wrap .q4, .cooldown-wrap.p127deg .overlay-wrap .q4, .cooldown-wrap.p37deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 75.35541vmin solid transparent; }
+  .cooldown-wrap.p307deg .overlay-wrap .q1, .cooldown-wrap.p217deg .overlay-wrap .q1, .cooldown-wrap.p127deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p307deg .overlay-wrap .q2, .cooldown-wrap.p217deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p307deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p308deg .overlay-wrap, .cooldown-wrap.p218deg .overlay-wrap, .cooldown-wrap.p128deg .overlay-wrap, .cooldown-wrap.p38deg .overlay-wrap {
+    transform: rotate(38deg); }
+    .cooldown-wrap.p308deg .overlay-wrap .q4, .cooldown-wrap.p218deg .overlay-wrap .q4, .cooldown-wrap.p128deg .overlay-wrap .q4, .cooldown-wrap.p38deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 78.12856vmin solid transparent; }
+  .cooldown-wrap.p308deg .overlay-wrap .q1, .cooldown-wrap.p218deg .overlay-wrap .q1, .cooldown-wrap.p128deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p308deg .overlay-wrap .q2, .cooldown-wrap.p218deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p308deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p309deg .overlay-wrap, .cooldown-wrap.p219deg .overlay-wrap, .cooldown-wrap.p129deg .overlay-wrap, .cooldown-wrap.p39deg .overlay-wrap {
+    transform: rotate(39deg); }
+    .cooldown-wrap.p309deg .overlay-wrap .q4, .cooldown-wrap.p219deg .overlay-wrap .q4, .cooldown-wrap.p129deg .overlay-wrap .q4, .cooldown-wrap.p39deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 80.9784vmin solid transparent; }
+  .cooldown-wrap.p309deg .overlay-wrap .q1, .cooldown-wrap.p219deg .overlay-wrap .q1, .cooldown-wrap.p129deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p309deg .overlay-wrap .q2, .cooldown-wrap.p219deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p309deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p310deg .overlay-wrap, .cooldown-wrap.p220deg .overlay-wrap, .cooldown-wrap.p130deg .overlay-wrap, .cooldown-wrap.p40deg .overlay-wrap {
+    transform: rotate(40deg); }
+    .cooldown-wrap.p310deg .overlay-wrap .q4, .cooldown-wrap.p220deg .overlay-wrap .q4, .cooldown-wrap.p130deg .overlay-wrap .q4, .cooldown-wrap.p40deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 83.90996vmin solid transparent; }
+  .cooldown-wrap.p310deg .overlay-wrap .q1, .cooldown-wrap.p220deg .overlay-wrap .q1, .cooldown-wrap.p130deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p310deg .overlay-wrap .q2, .cooldown-wrap.p220deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p310deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p311deg .overlay-wrap, .cooldown-wrap.p221deg .overlay-wrap, .cooldown-wrap.p131deg .overlay-wrap, .cooldown-wrap.p41deg .overlay-wrap {
+    transform: rotate(41deg); }
+    .cooldown-wrap.p311deg .overlay-wrap .q4, .cooldown-wrap.p221deg .overlay-wrap .q4, .cooldown-wrap.p131deg .overlay-wrap .q4, .cooldown-wrap.p41deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 86.92867vmin solid transparent; }
+  .cooldown-wrap.p311deg .overlay-wrap .q1, .cooldown-wrap.p221deg .overlay-wrap .q1, .cooldown-wrap.p131deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p311deg .overlay-wrap .q2, .cooldown-wrap.p221deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p311deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p312deg .overlay-wrap, .cooldown-wrap.p222deg .overlay-wrap, .cooldown-wrap.p132deg .overlay-wrap, .cooldown-wrap.p42deg .overlay-wrap {
+    transform: rotate(42deg); }
+    .cooldown-wrap.p312deg .overlay-wrap .q4, .cooldown-wrap.p222deg .overlay-wrap .q4, .cooldown-wrap.p132deg .overlay-wrap .q4, .cooldown-wrap.p42deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 90.0404vmin solid transparent; }
+  .cooldown-wrap.p312deg .overlay-wrap .q1, .cooldown-wrap.p222deg .overlay-wrap .q1, .cooldown-wrap.p132deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p312deg .overlay-wrap .q2, .cooldown-wrap.p222deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p312deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p313deg .overlay-wrap, .cooldown-wrap.p223deg .overlay-wrap, .cooldown-wrap.p133deg .overlay-wrap, .cooldown-wrap.p43deg .overlay-wrap {
+    transform: rotate(43deg); }
+    .cooldown-wrap.p313deg .overlay-wrap .q4, .cooldown-wrap.p223deg .overlay-wrap .q4, .cooldown-wrap.p133deg .overlay-wrap .q4, .cooldown-wrap.p43deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 93.25151vmin solid transparent; }
+  .cooldown-wrap.p313deg .overlay-wrap .q1, .cooldown-wrap.p223deg .overlay-wrap .q1, .cooldown-wrap.p133deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p313deg .overlay-wrap .q2, .cooldown-wrap.p223deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p313deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p314deg .overlay-wrap, .cooldown-wrap.p224deg .overlay-wrap, .cooldown-wrap.p134deg .overlay-wrap, .cooldown-wrap.p44deg .overlay-wrap {
+    transform: rotate(44deg); }
+    .cooldown-wrap.p314deg .overlay-wrap .q4, .cooldown-wrap.p224deg .overlay-wrap .q4, .cooldown-wrap.p134deg .overlay-wrap .q4, .cooldown-wrap.p44deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 96.56888vmin solid transparent; }
+  .cooldown-wrap.p314deg .overlay-wrap .q1, .cooldown-wrap.p224deg .overlay-wrap .q1, .cooldown-wrap.p134deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p314deg .overlay-wrap .q2, .cooldown-wrap.p224deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p314deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p315deg .overlay-wrap, .cooldown-wrap.p225deg .overlay-wrap, .cooldown-wrap.p135deg .overlay-wrap, .cooldown-wrap.p45deg .overlay-wrap {
+    transform: rotate(45deg); }
+    .cooldown-wrap.p315deg .overlay-wrap .q4, .cooldown-wrap.p225deg .overlay-wrap .q4, .cooldown-wrap.p135deg .overlay-wrap .q4, .cooldown-wrap.p45deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 100vmin solid transparent; }
+  .cooldown-wrap.p315deg .overlay-wrap .q1, .cooldown-wrap.p225deg .overlay-wrap .q1, .cooldown-wrap.p135deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p315deg .overlay-wrap .q2, .cooldown-wrap.p225deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p315deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p316deg .overlay-wrap, .cooldown-wrap.p226deg .overlay-wrap, .cooldown-wrap.p136deg .overlay-wrap, .cooldown-wrap.p46deg .overlay-wrap {
+    transform: rotate(46deg); }
+    .cooldown-wrap.p316deg .overlay-wrap .q4, .cooldown-wrap.p226deg .overlay-wrap .q4, .cooldown-wrap.p136deg .overlay-wrap .q4, .cooldown-wrap.p46deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 103.55303vmin solid transparent; }
+  .cooldown-wrap.p316deg .overlay-wrap .q1, .cooldown-wrap.p226deg .overlay-wrap .q1, .cooldown-wrap.p136deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p316deg .overlay-wrap .q2, .cooldown-wrap.p226deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p316deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p317deg .overlay-wrap, .cooldown-wrap.p227deg .overlay-wrap, .cooldown-wrap.p137deg .overlay-wrap, .cooldown-wrap.p47deg .overlay-wrap {
+    transform: rotate(47deg); }
+    .cooldown-wrap.p317deg .overlay-wrap .q4, .cooldown-wrap.p227deg .overlay-wrap .q4, .cooldown-wrap.p137deg .overlay-wrap .q4, .cooldown-wrap.p47deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 107.23687vmin solid transparent; }
+  .cooldown-wrap.p317deg .overlay-wrap .q1, .cooldown-wrap.p227deg .overlay-wrap .q1, .cooldown-wrap.p137deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p317deg .overlay-wrap .q2, .cooldown-wrap.p227deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p317deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p318deg .overlay-wrap, .cooldown-wrap.p228deg .overlay-wrap, .cooldown-wrap.p138deg .overlay-wrap, .cooldown-wrap.p48deg .overlay-wrap {
+    transform: rotate(48deg); }
+    .cooldown-wrap.p318deg .overlay-wrap .q4, .cooldown-wrap.p228deg .overlay-wrap .q4, .cooldown-wrap.p138deg .overlay-wrap .q4, .cooldown-wrap.p48deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 111.06125vmin solid transparent; }
+  .cooldown-wrap.p318deg .overlay-wrap .q1, .cooldown-wrap.p228deg .overlay-wrap .q1, .cooldown-wrap.p138deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p318deg .overlay-wrap .q2, .cooldown-wrap.p228deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p318deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p319deg .overlay-wrap, .cooldown-wrap.p229deg .overlay-wrap, .cooldown-wrap.p139deg .overlay-wrap, .cooldown-wrap.p49deg .overlay-wrap {
+    transform: rotate(49deg); }
+    .cooldown-wrap.p319deg .overlay-wrap .q4, .cooldown-wrap.p229deg .overlay-wrap .q4, .cooldown-wrap.p139deg .overlay-wrap .q4, .cooldown-wrap.p49deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 115.03684vmin solid transparent; }
+  .cooldown-wrap.p319deg .overlay-wrap .q1, .cooldown-wrap.p229deg .overlay-wrap .q1, .cooldown-wrap.p139deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p319deg .overlay-wrap .q2, .cooldown-wrap.p229deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p319deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p320deg .overlay-wrap, .cooldown-wrap.p230deg .overlay-wrap, .cooldown-wrap.p140deg .overlay-wrap, .cooldown-wrap.p50deg .overlay-wrap {
+    transform: rotate(50deg); }
+    .cooldown-wrap.p320deg .overlay-wrap .q4, .cooldown-wrap.p230deg .overlay-wrap .q4, .cooldown-wrap.p140deg .overlay-wrap .q4, .cooldown-wrap.p50deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 119.17536vmin solid transparent; }
+  .cooldown-wrap.p320deg .overlay-wrap .q1, .cooldown-wrap.p230deg .overlay-wrap .q1, .cooldown-wrap.p140deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p320deg .overlay-wrap .q2, .cooldown-wrap.p230deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p320deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p321deg .overlay-wrap, .cooldown-wrap.p231deg .overlay-wrap, .cooldown-wrap.p141deg .overlay-wrap, .cooldown-wrap.p51deg .overlay-wrap {
+    transform: rotate(51deg); }
+    .cooldown-wrap.p321deg .overlay-wrap .q4, .cooldown-wrap.p231deg .overlay-wrap .q4, .cooldown-wrap.p141deg .overlay-wrap .q4, .cooldown-wrap.p51deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 123.48972vmin solid transparent; }
+  .cooldown-wrap.p321deg .overlay-wrap .q1, .cooldown-wrap.p231deg .overlay-wrap .q1, .cooldown-wrap.p141deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p321deg .overlay-wrap .q2, .cooldown-wrap.p231deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p321deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p322deg .overlay-wrap, .cooldown-wrap.p232deg .overlay-wrap, .cooldown-wrap.p142deg .overlay-wrap, .cooldown-wrap.p52deg .overlay-wrap {
+    transform: rotate(52deg); }
+    .cooldown-wrap.p322deg .overlay-wrap .q4, .cooldown-wrap.p232deg .overlay-wrap .q4, .cooldown-wrap.p142deg .overlay-wrap .q4, .cooldown-wrap.p52deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 127.99416vmin solid transparent; }
+  .cooldown-wrap.p322deg .overlay-wrap .q1, .cooldown-wrap.p232deg .overlay-wrap .q1, .cooldown-wrap.p142deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p322deg .overlay-wrap .q2, .cooldown-wrap.p232deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p322deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p323deg .overlay-wrap, .cooldown-wrap.p233deg .overlay-wrap, .cooldown-wrap.p143deg .overlay-wrap, .cooldown-wrap.p53deg .overlay-wrap {
+    transform: rotate(53deg); }
+    .cooldown-wrap.p323deg .overlay-wrap .q4, .cooldown-wrap.p233deg .overlay-wrap .q4, .cooldown-wrap.p143deg .overlay-wrap .q4, .cooldown-wrap.p53deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 132.70448vmin solid transparent; }
+  .cooldown-wrap.p323deg .overlay-wrap .q1, .cooldown-wrap.p233deg .overlay-wrap .q1, .cooldown-wrap.p143deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p323deg .overlay-wrap .q2, .cooldown-wrap.p233deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p323deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p324deg .overlay-wrap, .cooldown-wrap.p234deg .overlay-wrap, .cooldown-wrap.p144deg .overlay-wrap, .cooldown-wrap.p54deg .overlay-wrap {
+    transform: rotate(54deg); }
+    .cooldown-wrap.p324deg .overlay-wrap .q4, .cooldown-wrap.p234deg .overlay-wrap .q4, .cooldown-wrap.p144deg .overlay-wrap .q4, .cooldown-wrap.p54deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 137.63819vmin solid transparent; }
+  .cooldown-wrap.p324deg .overlay-wrap .q1, .cooldown-wrap.p234deg .overlay-wrap .q1, .cooldown-wrap.p144deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p324deg .overlay-wrap .q2, .cooldown-wrap.p234deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p324deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p325deg .overlay-wrap, .cooldown-wrap.p235deg .overlay-wrap, .cooldown-wrap.p145deg .overlay-wrap, .cooldown-wrap.p55deg .overlay-wrap {
+    transform: rotate(55deg); }
+    .cooldown-wrap.p325deg .overlay-wrap .q4, .cooldown-wrap.p235deg .overlay-wrap .q4, .cooldown-wrap.p145deg .overlay-wrap .q4, .cooldown-wrap.p55deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 142.8148vmin solid transparent; }
+  .cooldown-wrap.p325deg .overlay-wrap .q1, .cooldown-wrap.p235deg .overlay-wrap .q1, .cooldown-wrap.p145deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p325deg .overlay-wrap .q2, .cooldown-wrap.p235deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p325deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p326deg .overlay-wrap, .cooldown-wrap.p236deg .overlay-wrap, .cooldown-wrap.p146deg .overlay-wrap, .cooldown-wrap.p56deg .overlay-wrap {
+    transform: rotate(56deg); }
+    .cooldown-wrap.p326deg .overlay-wrap .q4, .cooldown-wrap.p236deg .overlay-wrap .q4, .cooldown-wrap.p146deg .overlay-wrap .q4, .cooldown-wrap.p56deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 148.2561vmin solid transparent; }
+  .cooldown-wrap.p326deg .overlay-wrap .q1, .cooldown-wrap.p236deg .overlay-wrap .q1, .cooldown-wrap.p146deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p326deg .overlay-wrap .q2, .cooldown-wrap.p236deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p326deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p327deg .overlay-wrap, .cooldown-wrap.p237deg .overlay-wrap, .cooldown-wrap.p147deg .overlay-wrap, .cooldown-wrap.p57deg .overlay-wrap {
+    transform: rotate(57deg); }
+    .cooldown-wrap.p327deg .overlay-wrap .q4, .cooldown-wrap.p237deg .overlay-wrap .q4, .cooldown-wrap.p147deg .overlay-wrap .q4, .cooldown-wrap.p57deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 153.9865vmin solid transparent; }
+  .cooldown-wrap.p327deg .overlay-wrap .q1, .cooldown-wrap.p237deg .overlay-wrap .q1, .cooldown-wrap.p147deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p327deg .overlay-wrap .q2, .cooldown-wrap.p237deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p327deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p328deg .overlay-wrap, .cooldown-wrap.p238deg .overlay-wrap, .cooldown-wrap.p148deg .overlay-wrap, .cooldown-wrap.p58deg .overlay-wrap {
+    transform: rotate(58deg); }
+    .cooldown-wrap.p328deg .overlay-wrap .q4, .cooldown-wrap.p238deg .overlay-wrap .q4, .cooldown-wrap.p148deg .overlay-wrap .q4, .cooldown-wrap.p58deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 160.03345vmin solid transparent; }
+  .cooldown-wrap.p328deg .overlay-wrap .q1, .cooldown-wrap.p238deg .overlay-wrap .q1, .cooldown-wrap.p148deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p328deg .overlay-wrap .q2, .cooldown-wrap.p238deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p328deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p329deg .overlay-wrap, .cooldown-wrap.p239deg .overlay-wrap, .cooldown-wrap.p149deg .overlay-wrap, .cooldown-wrap.p59deg .overlay-wrap {
+    transform: rotate(59deg); }
+    .cooldown-wrap.p329deg .overlay-wrap .q4, .cooldown-wrap.p239deg .overlay-wrap .q4, .cooldown-wrap.p149deg .overlay-wrap .q4, .cooldown-wrap.p59deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 166.42795vmin solid transparent; }
+  .cooldown-wrap.p329deg .overlay-wrap .q1, .cooldown-wrap.p239deg .overlay-wrap .q1, .cooldown-wrap.p149deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p329deg .overlay-wrap .q2, .cooldown-wrap.p239deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p329deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p330deg .overlay-wrap, .cooldown-wrap.p240deg .overlay-wrap, .cooldown-wrap.p150deg .overlay-wrap, .cooldown-wrap.p60deg .overlay-wrap {
+    transform: rotate(60deg); }
+    .cooldown-wrap.p330deg .overlay-wrap .q4, .cooldown-wrap.p240deg .overlay-wrap .q4, .cooldown-wrap.p150deg .overlay-wrap .q4, .cooldown-wrap.p60deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 173.20508vmin solid transparent; }
+  .cooldown-wrap.p330deg .overlay-wrap .q1, .cooldown-wrap.p240deg .overlay-wrap .q1, .cooldown-wrap.p150deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p330deg .overlay-wrap .q2, .cooldown-wrap.p240deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p330deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p331deg .overlay-wrap, .cooldown-wrap.p241deg .overlay-wrap, .cooldown-wrap.p151deg .overlay-wrap, .cooldown-wrap.p61deg .overlay-wrap {
+    transform: rotate(61deg); }
+    .cooldown-wrap.p331deg .overlay-wrap .q4, .cooldown-wrap.p241deg .overlay-wrap .q4, .cooldown-wrap.p151deg .overlay-wrap .q4, .cooldown-wrap.p61deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 180.40478vmin solid transparent; }
+  .cooldown-wrap.p331deg .overlay-wrap .q1, .cooldown-wrap.p241deg .overlay-wrap .q1, .cooldown-wrap.p151deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p331deg .overlay-wrap .q2, .cooldown-wrap.p241deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p331deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p332deg .overlay-wrap, .cooldown-wrap.p242deg .overlay-wrap, .cooldown-wrap.p152deg .overlay-wrap, .cooldown-wrap.p62deg .overlay-wrap {
+    transform: rotate(62deg); }
+    .cooldown-wrap.p332deg .overlay-wrap .q4, .cooldown-wrap.p242deg .overlay-wrap .q4, .cooldown-wrap.p152deg .overlay-wrap .q4, .cooldown-wrap.p62deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 188.07265vmin solid transparent; }
+  .cooldown-wrap.p332deg .overlay-wrap .q1, .cooldown-wrap.p242deg .overlay-wrap .q1, .cooldown-wrap.p152deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p332deg .overlay-wrap .q2, .cooldown-wrap.p242deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p332deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p333deg .overlay-wrap, .cooldown-wrap.p243deg .overlay-wrap, .cooldown-wrap.p153deg .overlay-wrap, .cooldown-wrap.p63deg .overlay-wrap {
+    transform: rotate(63deg); }
+    .cooldown-wrap.p333deg .overlay-wrap .q4, .cooldown-wrap.p243deg .overlay-wrap .q4, .cooldown-wrap.p153deg .overlay-wrap .q4, .cooldown-wrap.p63deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 196.26105vmin solid transparent; }
+  .cooldown-wrap.p333deg .overlay-wrap .q1, .cooldown-wrap.p243deg .overlay-wrap .q1, .cooldown-wrap.p153deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p333deg .overlay-wrap .q2, .cooldown-wrap.p243deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p333deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p334deg .overlay-wrap, .cooldown-wrap.p244deg .overlay-wrap, .cooldown-wrap.p154deg .overlay-wrap, .cooldown-wrap.p64deg .overlay-wrap {
+    transform: rotate(64deg); }
+    .cooldown-wrap.p334deg .overlay-wrap .q4, .cooldown-wrap.p244deg .overlay-wrap .q4, .cooldown-wrap.p154deg .overlay-wrap .q4, .cooldown-wrap.p64deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 205.03038vmin solid transparent; }
+  .cooldown-wrap.p334deg .overlay-wrap .q1, .cooldown-wrap.p244deg .overlay-wrap .q1, .cooldown-wrap.p154deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p334deg .overlay-wrap .q2, .cooldown-wrap.p244deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p334deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p335deg .overlay-wrap, .cooldown-wrap.p245deg .overlay-wrap, .cooldown-wrap.p155deg .overlay-wrap, .cooldown-wrap.p65deg .overlay-wrap {
+    transform: rotate(65deg); }
+    .cooldown-wrap.p335deg .overlay-wrap .q4, .cooldown-wrap.p245deg .overlay-wrap .q4, .cooldown-wrap.p155deg .overlay-wrap .q4, .cooldown-wrap.p65deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 214.45069vmin solid transparent; }
+  .cooldown-wrap.p335deg .overlay-wrap .q1, .cooldown-wrap.p245deg .overlay-wrap .q1, .cooldown-wrap.p155deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p335deg .overlay-wrap .q2, .cooldown-wrap.p245deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p335deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p336deg .overlay-wrap, .cooldown-wrap.p246deg .overlay-wrap, .cooldown-wrap.p156deg .overlay-wrap, .cooldown-wrap.p66deg .overlay-wrap {
+    transform: rotate(66deg); }
+    .cooldown-wrap.p336deg .overlay-wrap .q4, .cooldown-wrap.p246deg .overlay-wrap .q4, .cooldown-wrap.p156deg .overlay-wrap .q4, .cooldown-wrap.p66deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 224.60368vmin solid transparent; }
+  .cooldown-wrap.p336deg .overlay-wrap .q1, .cooldown-wrap.p246deg .overlay-wrap .q1, .cooldown-wrap.p156deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p336deg .overlay-wrap .q2, .cooldown-wrap.p246deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p336deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p337deg .overlay-wrap, .cooldown-wrap.p247deg .overlay-wrap, .cooldown-wrap.p157deg .overlay-wrap, .cooldown-wrap.p67deg .overlay-wrap {
+    transform: rotate(67deg); }
+    .cooldown-wrap.p337deg .overlay-wrap .q4, .cooldown-wrap.p247deg .overlay-wrap .q4, .cooldown-wrap.p157deg .overlay-wrap .q4, .cooldown-wrap.p67deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 235.58524vmin solid transparent; }
+  .cooldown-wrap.p337deg .overlay-wrap .q1, .cooldown-wrap.p247deg .overlay-wrap .q1, .cooldown-wrap.p157deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p337deg .overlay-wrap .q2, .cooldown-wrap.p247deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p337deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p338deg .overlay-wrap, .cooldown-wrap.p248deg .overlay-wrap, .cooldown-wrap.p158deg .overlay-wrap, .cooldown-wrap.p68deg .overlay-wrap {
+    transform: rotate(68deg); }
+    .cooldown-wrap.p338deg .overlay-wrap .q4, .cooldown-wrap.p248deg .overlay-wrap .q4, .cooldown-wrap.p158deg .overlay-wrap .q4, .cooldown-wrap.p68deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 247.50869vmin solid transparent; }
+  .cooldown-wrap.p338deg .overlay-wrap .q1, .cooldown-wrap.p248deg .overlay-wrap .q1, .cooldown-wrap.p158deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p338deg .overlay-wrap .q2, .cooldown-wrap.p248deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p338deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p339deg .overlay-wrap, .cooldown-wrap.p249deg .overlay-wrap, .cooldown-wrap.p159deg .overlay-wrap, .cooldown-wrap.p69deg .overlay-wrap {
+    transform: rotate(69deg); }
+    .cooldown-wrap.p339deg .overlay-wrap .q4, .cooldown-wrap.p249deg .overlay-wrap .q4, .cooldown-wrap.p159deg .overlay-wrap .q4, .cooldown-wrap.p69deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 260.50891vmin solid transparent; }
+  .cooldown-wrap.p339deg .overlay-wrap .q1, .cooldown-wrap.p249deg .overlay-wrap .q1, .cooldown-wrap.p159deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p339deg .overlay-wrap .q2, .cooldown-wrap.p249deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p339deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p340deg .overlay-wrap, .cooldown-wrap.p250deg .overlay-wrap, .cooldown-wrap.p160deg .overlay-wrap, .cooldown-wrap.p70deg .overlay-wrap {
+    transform: rotate(70deg); }
+    .cooldown-wrap.p340deg .overlay-wrap .q4, .cooldown-wrap.p250deg .overlay-wrap .q4, .cooldown-wrap.p160deg .overlay-wrap .q4, .cooldown-wrap.p70deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 274.74774vmin solid transparent; }
+  .cooldown-wrap.p340deg .overlay-wrap .q1, .cooldown-wrap.p250deg .overlay-wrap .q1, .cooldown-wrap.p160deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p340deg .overlay-wrap .q2, .cooldown-wrap.p250deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p340deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p341deg .overlay-wrap, .cooldown-wrap.p251deg .overlay-wrap, .cooldown-wrap.p161deg .overlay-wrap, .cooldown-wrap.p71deg .overlay-wrap {
+    transform: rotate(71deg); }
+    .cooldown-wrap.p341deg .overlay-wrap .q4, .cooldown-wrap.p251deg .overlay-wrap .q4, .cooldown-wrap.p161deg .overlay-wrap .q4, .cooldown-wrap.p71deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 290.42109vmin solid transparent; }
+  .cooldown-wrap.p341deg .overlay-wrap .q1, .cooldown-wrap.p251deg .overlay-wrap .q1, .cooldown-wrap.p161deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p341deg .overlay-wrap .q2, .cooldown-wrap.p251deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p341deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p342deg .overlay-wrap, .cooldown-wrap.p252deg .overlay-wrap, .cooldown-wrap.p162deg .overlay-wrap, .cooldown-wrap.p72deg .overlay-wrap {
+    transform: rotate(72deg); }
+    .cooldown-wrap.p342deg .overlay-wrap .q4, .cooldown-wrap.p252deg .overlay-wrap .q4, .cooldown-wrap.p162deg .overlay-wrap .q4, .cooldown-wrap.p72deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 307.76835vmin solid transparent; }
+  .cooldown-wrap.p342deg .overlay-wrap .q1, .cooldown-wrap.p252deg .overlay-wrap .q1, .cooldown-wrap.p162deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p342deg .overlay-wrap .q2, .cooldown-wrap.p252deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p342deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p343deg .overlay-wrap, .cooldown-wrap.p253deg .overlay-wrap, .cooldown-wrap.p163deg .overlay-wrap, .cooldown-wrap.p73deg .overlay-wrap {
+    transform: rotate(73deg); }
+    .cooldown-wrap.p343deg .overlay-wrap .q4, .cooldown-wrap.p253deg .overlay-wrap .q4, .cooldown-wrap.p163deg .overlay-wrap .q4, .cooldown-wrap.p73deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 327.08526vmin solid transparent; }
+  .cooldown-wrap.p343deg .overlay-wrap .q1, .cooldown-wrap.p253deg .overlay-wrap .q1, .cooldown-wrap.p163deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p343deg .overlay-wrap .q2, .cooldown-wrap.p253deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p343deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p344deg .overlay-wrap, .cooldown-wrap.p254deg .overlay-wrap, .cooldown-wrap.p164deg .overlay-wrap, .cooldown-wrap.p74deg .overlay-wrap {
+    transform: rotate(74deg); }
+    .cooldown-wrap.p344deg .overlay-wrap .q4, .cooldown-wrap.p254deg .overlay-wrap .q4, .cooldown-wrap.p164deg .overlay-wrap .q4, .cooldown-wrap.p74deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 348.74144vmin solid transparent; }
+  .cooldown-wrap.p344deg .overlay-wrap .q1, .cooldown-wrap.p254deg .overlay-wrap .q1, .cooldown-wrap.p164deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p344deg .overlay-wrap .q2, .cooldown-wrap.p254deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p344deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p345deg .overlay-wrap, .cooldown-wrap.p255deg .overlay-wrap, .cooldown-wrap.p165deg .overlay-wrap, .cooldown-wrap.p75deg .overlay-wrap {
+    transform: rotate(75deg); }
+    .cooldown-wrap.p345deg .overlay-wrap .q4, .cooldown-wrap.p255deg .overlay-wrap .q4, .cooldown-wrap.p165deg .overlay-wrap .q4, .cooldown-wrap.p75deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 373.20508vmin solid transparent; }
+  .cooldown-wrap.p345deg .overlay-wrap .q1, .cooldown-wrap.p255deg .overlay-wrap .q1, .cooldown-wrap.p165deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p345deg .overlay-wrap .q2, .cooldown-wrap.p255deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p345deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p346deg .overlay-wrap, .cooldown-wrap.p256deg .overlay-wrap, .cooldown-wrap.p166deg .overlay-wrap, .cooldown-wrap.p76deg .overlay-wrap {
+    transform: rotate(76deg); }
+    .cooldown-wrap.p346deg .overlay-wrap .q4, .cooldown-wrap.p256deg .overlay-wrap .q4, .cooldown-wrap.p166deg .overlay-wrap .q4, .cooldown-wrap.p76deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 401.07809vmin solid transparent; }
+  .cooldown-wrap.p346deg .overlay-wrap .q1, .cooldown-wrap.p256deg .overlay-wrap .q1, .cooldown-wrap.p166deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p346deg .overlay-wrap .q2, .cooldown-wrap.p256deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p346deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p347deg .overlay-wrap, .cooldown-wrap.p257deg .overlay-wrap, .cooldown-wrap.p167deg .overlay-wrap, .cooldown-wrap.p77deg .overlay-wrap {
+    transform: rotate(77deg); }
+    .cooldown-wrap.p347deg .overlay-wrap .q4, .cooldown-wrap.p257deg .overlay-wrap .q4, .cooldown-wrap.p167deg .overlay-wrap .q4, .cooldown-wrap.p77deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 433.14759vmin solid transparent; }
+  .cooldown-wrap.p347deg .overlay-wrap .q1, .cooldown-wrap.p257deg .overlay-wrap .q1, .cooldown-wrap.p167deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p347deg .overlay-wrap .q2, .cooldown-wrap.p257deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p347deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p348deg .overlay-wrap, .cooldown-wrap.p258deg .overlay-wrap, .cooldown-wrap.p168deg .overlay-wrap, .cooldown-wrap.p78deg .overlay-wrap {
+    transform: rotate(78deg); }
+    .cooldown-wrap.p348deg .overlay-wrap .q4, .cooldown-wrap.p258deg .overlay-wrap .q4, .cooldown-wrap.p168deg .overlay-wrap .q4, .cooldown-wrap.p78deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 470.46301vmin solid transparent; }
+  .cooldown-wrap.p348deg .overlay-wrap .q1, .cooldown-wrap.p258deg .overlay-wrap .q1, .cooldown-wrap.p168deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p348deg .overlay-wrap .q2, .cooldown-wrap.p258deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p348deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p349deg .overlay-wrap, .cooldown-wrap.p259deg .overlay-wrap, .cooldown-wrap.p169deg .overlay-wrap, .cooldown-wrap.p79deg .overlay-wrap {
+    transform: rotate(79deg); }
+    .cooldown-wrap.p349deg .overlay-wrap .q4, .cooldown-wrap.p259deg .overlay-wrap .q4, .cooldown-wrap.p169deg .overlay-wrap .q4, .cooldown-wrap.p79deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 514.4554vmin solid transparent; }
+  .cooldown-wrap.p349deg .overlay-wrap .q1, .cooldown-wrap.p259deg .overlay-wrap .q1, .cooldown-wrap.p169deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p349deg .overlay-wrap .q2, .cooldown-wrap.p259deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p349deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p350deg .overlay-wrap, .cooldown-wrap.p260deg .overlay-wrap, .cooldown-wrap.p170deg .overlay-wrap, .cooldown-wrap.p80deg .overlay-wrap {
+    transform: rotate(80deg); }
+    .cooldown-wrap.p350deg .overlay-wrap .q4, .cooldown-wrap.p260deg .overlay-wrap .q4, .cooldown-wrap.p170deg .overlay-wrap .q4, .cooldown-wrap.p80deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 567.12818vmin solid transparent; }
+  .cooldown-wrap.p350deg .overlay-wrap .q1, .cooldown-wrap.p260deg .overlay-wrap .q1, .cooldown-wrap.p170deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p350deg .overlay-wrap .q2, .cooldown-wrap.p260deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p350deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p351deg .overlay-wrap, .cooldown-wrap.p261deg .overlay-wrap, .cooldown-wrap.p171deg .overlay-wrap, .cooldown-wrap.p81deg .overlay-wrap {
+    transform: rotate(81deg); }
+    .cooldown-wrap.p351deg .overlay-wrap .q4, .cooldown-wrap.p261deg .overlay-wrap .q4, .cooldown-wrap.p171deg .overlay-wrap .q4, .cooldown-wrap.p81deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 631.37515vmin solid transparent; }
+  .cooldown-wrap.p351deg .overlay-wrap .q1, .cooldown-wrap.p261deg .overlay-wrap .q1, .cooldown-wrap.p171deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p351deg .overlay-wrap .q2, .cooldown-wrap.p261deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p351deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p352deg .overlay-wrap, .cooldown-wrap.p262deg .overlay-wrap, .cooldown-wrap.p172deg .overlay-wrap, .cooldown-wrap.p82deg .overlay-wrap {
+    transform: rotate(82deg); }
+    .cooldown-wrap.p352deg .overlay-wrap .q4, .cooldown-wrap.p262deg .overlay-wrap .q4, .cooldown-wrap.p172deg .overlay-wrap .q4, .cooldown-wrap.p82deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 711.53697vmin solid transparent; }
+  .cooldown-wrap.p352deg .overlay-wrap .q1, .cooldown-wrap.p262deg .overlay-wrap .q1, .cooldown-wrap.p172deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p352deg .overlay-wrap .q2, .cooldown-wrap.p262deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p352deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p353deg .overlay-wrap, .cooldown-wrap.p263deg .overlay-wrap, .cooldown-wrap.p173deg .overlay-wrap, .cooldown-wrap.p83deg .overlay-wrap {
+    transform: rotate(83deg); }
+    .cooldown-wrap.p353deg .overlay-wrap .q4, .cooldown-wrap.p263deg .overlay-wrap .q4, .cooldown-wrap.p173deg .overlay-wrap .q4, .cooldown-wrap.p83deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 814.43464vmin solid transparent; }
+  .cooldown-wrap.p353deg .overlay-wrap .q1, .cooldown-wrap.p263deg .overlay-wrap .q1, .cooldown-wrap.p173deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p353deg .overlay-wrap .q2, .cooldown-wrap.p263deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p353deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p354deg .overlay-wrap, .cooldown-wrap.p264deg .overlay-wrap, .cooldown-wrap.p174deg .overlay-wrap, .cooldown-wrap.p84deg .overlay-wrap {
+    transform: rotate(84deg); }
+    .cooldown-wrap.p354deg .overlay-wrap .q4, .cooldown-wrap.p264deg .overlay-wrap .q4, .cooldown-wrap.p174deg .overlay-wrap .q4, .cooldown-wrap.p84deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 951.43645vmin solid transparent; }
+  .cooldown-wrap.p354deg .overlay-wrap .q1, .cooldown-wrap.p264deg .overlay-wrap .q1, .cooldown-wrap.p174deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p354deg .overlay-wrap .q2, .cooldown-wrap.p264deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p354deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p355deg .overlay-wrap, .cooldown-wrap.p265deg .overlay-wrap, .cooldown-wrap.p175deg .overlay-wrap, .cooldown-wrap.p85deg .overlay-wrap {
+    transform: rotate(85deg); }
+    .cooldown-wrap.p355deg .overlay-wrap .q4, .cooldown-wrap.p265deg .overlay-wrap .q4, .cooldown-wrap.p175deg .overlay-wrap .q4, .cooldown-wrap.p85deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 1143.00523vmin solid transparent; }
+  .cooldown-wrap.p355deg .overlay-wrap .q1, .cooldown-wrap.p265deg .overlay-wrap .q1, .cooldown-wrap.p175deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p355deg .overlay-wrap .q2, .cooldown-wrap.p265deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p355deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p356deg .overlay-wrap, .cooldown-wrap.p266deg .overlay-wrap, .cooldown-wrap.p176deg .overlay-wrap, .cooldown-wrap.p86deg .overlay-wrap {
+    transform: rotate(86deg); }
+    .cooldown-wrap.p356deg .overlay-wrap .q4, .cooldown-wrap.p266deg .overlay-wrap .q4, .cooldown-wrap.p176deg .overlay-wrap .q4, .cooldown-wrap.p86deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 1430.06663vmin solid transparent; }
+  .cooldown-wrap.p356deg .overlay-wrap .q1, .cooldown-wrap.p266deg .overlay-wrap .q1, .cooldown-wrap.p176deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p356deg .overlay-wrap .q2, .cooldown-wrap.p266deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p356deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p357deg .overlay-wrap, .cooldown-wrap.p267deg .overlay-wrap, .cooldown-wrap.p177deg .overlay-wrap, .cooldown-wrap.p87deg .overlay-wrap {
+    transform: rotate(87deg); }
+    .cooldown-wrap.p357deg .overlay-wrap .q4, .cooldown-wrap.p267deg .overlay-wrap .q4, .cooldown-wrap.p177deg .overlay-wrap .q4, .cooldown-wrap.p87deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 1908.11367vmin solid transparent; }
+  .cooldown-wrap.p357deg .overlay-wrap .q1, .cooldown-wrap.p267deg .overlay-wrap .q1, .cooldown-wrap.p177deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p357deg .overlay-wrap .q2, .cooldown-wrap.p267deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p357deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p358deg .overlay-wrap, .cooldown-wrap.p268deg .overlay-wrap, .cooldown-wrap.p178deg .overlay-wrap, .cooldown-wrap.p88deg .overlay-wrap {
+    transform: rotate(88deg); }
+    .cooldown-wrap.p358deg .overlay-wrap .q4, .cooldown-wrap.p268deg .overlay-wrap .q4, .cooldown-wrap.p178deg .overlay-wrap .q4, .cooldown-wrap.p88deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 2863.62533vmin solid transparent; }
+  .cooldown-wrap.p358deg .overlay-wrap .q1, .cooldown-wrap.p268deg .overlay-wrap .q1, .cooldown-wrap.p178deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p358deg .overlay-wrap .q2, .cooldown-wrap.p268deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p358deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p359deg .overlay-wrap, .cooldown-wrap.p269deg .overlay-wrap, .cooldown-wrap.p179deg .overlay-wrap, .cooldown-wrap.p89deg .overlay-wrap {
+    transform: rotate(89deg); }
+    .cooldown-wrap.p359deg .overlay-wrap .q4, .cooldown-wrap.p269deg .overlay-wrap .q4, .cooldown-wrap.p179deg .overlay-wrap .q4, .cooldown-wrap.p89deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: 5728.99616vmin solid transparent; }
+  .cooldown-wrap.p359deg .overlay-wrap .q1, .cooldown-wrap.p269deg .overlay-wrap .q1, .cooldown-wrap.p179deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p359deg .overlay-wrap .q2, .cooldown-wrap.p269deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p359deg .overlay-wrap .q3 {
+    visibility: hidden; }
+  .cooldown-wrap.p360deg .overlay-wrap, .cooldown-wrap.p270deg .overlay-wrap, .cooldown-wrap.p180deg .overlay-wrap, .cooldown-wrap.p90deg .overlay-wrap {
+    transform: rotate(90deg); }
+    .cooldown-wrap.p360deg .overlay-wrap .q4, .cooldown-wrap.p270deg .overlay-wrap .q4, .cooldown-wrap.p180deg .overlay-wrap .q4, .cooldown-wrap.p90deg .overlay-wrap .q4 {
+      background-color: transparent;
+      height: 0;
+      width: 0;
+      border-bottom: 100vmin solid rgba(0, 255, 0, 0.5);
+      border-right: -966971881891566.5vmin solid transparent; }
+  .cooldown-wrap.p360deg .overlay-wrap .q1, .cooldown-wrap.p270deg .overlay-wrap .q1, .cooldown-wrap.p180deg .overlay-wrap .q1 {
+    visibility: hidden; }
+  .cooldown-wrap.p360deg .overlay-wrap .q2, .cooldown-wrap.p270deg .overlay-wrap .q2 {
+    visibility: hidden; }
+  .cooldown-wrap.p360deg .overlay-wrap .q3 {
+    visibility: hidden; }
+
+.cooldown-wrap {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  display: inline-block;
+  position: relative; }
+  .cooldown-wrap .bottom {
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px; }
+
+/*# sourceMappingURL=main.css.map */
