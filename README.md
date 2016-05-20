@@ -1,6 +1,9 @@
 # css-cooldown
 Css component to display cooldown pie-like overlay
 
+Example:
+
+http://codepen.io/hovi6337/pen/NNZzVo
 
 ## Html structure:
 <div class="cooldown-wrap r10deg">
