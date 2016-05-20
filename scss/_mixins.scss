@@ -1,0 +1,42 @@
+@import "math";
+@import "settings";
+
+
+@mixin cooldownByAngle($angle) {
+    $angle: round($angle);
+    $angle90max: $angle % 90;
+    &.p#{$angle} {
+        .overlay-wrap {
+            transform: rotate(#{$angle90max});
+            .q4 {
+                @if $angle90max > 0deg {
+                    background-color: transparent;
+                    height: 0;
+                    width: 0;
+                    border-bottom: $border-size solid $overlay-color;
+                    border-right: $border-size * tan($angle90max) solid transparent;
+                }
+            }
+            @if $angle >=  90deg {
+                .q1 {
+                    visibility: hidden;
+                }
+            }
+            @if $angle >= 180deg {
+                .q2 {
+                    visibility: hidden;
+                }
+            }
+            @if $angle >= 270deg {
+                .q3 {
+                    visibility: hidden;
+                }
+            }
+            @if $angle >= 360deg {
+                .q4 {
+                    visibility: hidden;
+                }
+            }
+        }
+    }
+}

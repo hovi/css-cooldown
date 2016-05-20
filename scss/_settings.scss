@@ -1,0 +1,7 @@
+$overlay-color: rgba(0, 255, 0, 0.5);
+$overlay-opacity: 0.1;
+
+$tan1deg: 0.01745506492; // tan(1deg);
+//we cannot use $size if size is in percentage so we just use huge value (overflow is hidden anyway)
+//vmax would be safer, but that has worse IE support, vmin should be enough most of the time unless it's fullscreen
+$border-size: 100vmin / $tan1deg;
