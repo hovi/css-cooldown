@@ -28,9 +28,9 @@
         border-radius: 50%;
     }
     &.red {
-        @include cooldownWrap(red, $overlay-opacity);
+        @include cooldownWrap(red, 0.9);
     }
     &.blue {
-        @include cooldownWrap(blue, $overlay-opacity);
+        @include cooldownWrap(blue, 0.5);
     }
 }

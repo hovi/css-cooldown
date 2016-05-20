@@ -3998,7 +3998,7 @@
       width: 100%;
       position: relative;
       transform-origin: center center;
-      opacity: 0.1; }
+      opacity: 1; }
       .cooldown-wrap.red .overlay-wrap > * {
         box-sizing: border-box;
         position: absolute;
