@@ -6,7 +6,6 @@
     
 }
 
-
 @keyframes overlay-wrap-animate {
     @for $percentage from 1 through 100 {
         $angle90max: round($percentage * 3.6deg % 90deg);
@@ -68,7 +67,18 @@
     }
 }
 
+@mixin cooldownWrapColors($color, $opacity) {
+    .overlay-wrap {
+        opacity: $opacity;
+        & > * {
+            background-color: $color;
+            border-bottom-color: $color;
+        }
+    }
+}
+
 @mixin cooldownWrap($color, $opacity) {
+    @include cooldownWrapColors($color, $opacity);
     box-sizing: border-box;
     overflow: hidden;
     $size: 100%;
@@ -79,7 +89,6 @@
         width: $size;
         position: relative;
         transform-origin: center center;
-        opacity: $opacity;
 
         & > * {
             box-sizing: border-box;
@@ -88,7 +97,12 @@
             display: block; 
             height: $size;
             width: $size;
-            background-color: $color;
+            
+            border-bottom-style: solid;
+            border-bottom-width: 0;
+            border-right-color: transparent;
+            border-right-style: solid;
+            border-right-width: 0;
             &.q1 {
                 left: $size / 2;
                 bottom: $size / 2;
@@ -105,17 +119,11 @@
             &.q4 {
                 right: $size / 2;
                 bottom: $size / 2;
-                border-bottom-color: $color;
-                border-bottom-style: solid;
-                border-bottom-width: 0;
-                border-right-color: transparent;
-                border-right-style: solid;
-                border-right-width: 0;
             }
         }
     }
     @for $i from 1deg through 360deg {
-        @include cooldownByAngle($i, $color);
+        @include cooldownByAngle($i);
     }
     &.animated {
         $anim-duration: 360s;
@@ -147,7 +155,15 @@
     }
 }
 
-@mixin cooldownByAngle($angle, $color) {
+@mixin triangle($angle, $size) {
+    background-color: transparent;
+    height: 0;
+    width: 0;
+    border-bottom-width: $size;
+    border-right-width: $size * tan($angle);
+}
+
+@mixin cooldownByAngle($angle) {
     $angle: round($angle);
     $angle90max: $angle % 90;
     &.p#{$angle} {
@@ -155,11 +171,7 @@
             transform: rotate(#{$angle90max});
             .q4 {
                 @if $angle90max > 0deg {
-                    background-color: transparent;
-                    height: 0;
-                    width: 0;
-                    border-bottom-width: $border-size;
-                    border-right-width: $border-size * tan($angle90max);
+                    @include triangle($angle90max, $border-size);
                 }
             }
             @if $angle >=  90deg {

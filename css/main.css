@@ -4259,12 +4259,16 @@
   box-sizing: border-box;
   overflow: hidden; }
   .cooldown-wrap .overlay-wrap {
+    opacity: 0.1; }
+    .cooldown-wrap .overlay-wrap > * {
+      background-color: rgba(0, 255, 0, 0.5);
+      border-bottom-color: rgba(0, 255, 0, 0.5); }
+  .cooldown-wrap .overlay-wrap {
     box-sizing: border-box;
     height: 100%;
     width: 100%;
     position: relative;
-    transform-origin: center center;
-    opacity: 0.1; }
+    transform-origin: center center; }
     .cooldown-wrap .overlay-wrap > * {
       box-sizing: border-box;
       position: absolute;
@@ -4272,7 +4276,11 @@
       display: block;
       height: 100%;
       width: 100%;
-      background-color: rgba(0, 255, 0, 0.5); }
+      border-bottom-style: solid;
+      border-bottom-width: 0;
+      border-right-color: transparent;
+      border-right-style: solid;
+      border-right-width: 0; }
       .cooldown-wrap .overlay-wrap > *.q1 {
         left: 50%;
         bottom: 50%; }
@@ -4284,13 +4292,7 @@
         top: 50%; }
       .cooldown-wrap .overlay-wrap > *.q4 {
         right: 50%;
-        bottom: 50%;
-        border-bottom-color: rgba(0, 255, 0, 0.5);
-        border-bottom-style: solid;
-        border-bottom-width: 0;
-        border-right-color: transparent;
-        border-right-style: solid;
-        border-right-width: 0; }
+        bottom: 50%; }
   .cooldown-wrap.p1deg .overlay-wrap {
     transform: rotate(1deg); }
     .cooldown-wrap.p1deg .overlay-wrap .q4 {
@@ -8257,5 +8259,15 @@
       animation-iteration-count: infinite; }
   .cooldown-wrap.circle {
     border-radius: 50%; }
+  .cooldown-wrap.red .overlay-wrap {
+    opacity: 0.9; }
+    .cooldown-wrap.red .overlay-wrap > * {
+      background-color: red;
+      border-bottom-color: red; }
+  .cooldown-wrap.blue .overlay-wrap {
+    opacity: 0.5; }
+    .cooldown-wrap.blue .overlay-wrap > * {
+      background-color: blue;
+      border-bottom-color: blue; }
 
 /*# sourceMappingURL=main.css.map */

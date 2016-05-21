@@ -29,9 +29,9 @@
         border-radius: 50%;
     }
     &.red {
-        //@include cooldownWrap(red, 0.9);
+        @include cooldownWrapColors(red, 0.9);
     }
     &.blue {
-        //@include cooldownWrap(blue, 0.5);
+        @include cooldownWrapColors(blue, 0.5);
     }
 }
