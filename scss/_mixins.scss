@@ -72,7 +72,7 @@
         opacity: $opacity;
         & > * {
             background-color: $color;
-            border-bottom-color: $color;
+            border-color: $color;
         }
     }
 }
@@ -82,8 +82,10 @@
     box-sizing: border-box;
     overflow: hidden;
     $size: 100%;
+    z-index: 1;
 
     .overlay-wrap {
+        z-index: 0;
         box-sizing: border-box;
         height: $size;
         width: $size;
@@ -100,7 +102,8 @@
             
             border-bottom-style: solid;
             border-bottom-width: 0;
-            border-right-color: transparent;
+            //border-right-color: transparent;
+            //border-color: transparent;
             border-right-style: solid;
             border-right-width: 0;
             &.q1 {
@@ -155,11 +158,12 @@
     }
 }
 
-@mixin triangle($angle, $size) {
+@mixin triangle-top-right($angle, $size) {
     background-color: transparent;
     height: 0;
     width: 0;
     border-bottom-width: $size;
+    border-right-color: transparent;
     border-right-width: $size * tan($angle);
 }
 
@@ -169,11 +173,14 @@
     &.p#{$angle} {
         .overlay-wrap {
             transform: rotate(#{$angle90max});
+            * {
+                //@include triangle-top-right($angle90max, $border-size);
+            }
             .q4 {
                 @if $angle90max > 0deg {
-                    @include triangle($angle90max, $border-size);
+                    @include triangle-top-right($angle90max, $border-size);
                 }
-            }
+            }   
             @if $angle >=  90deg {
                 .q1 {
                     visibility: hidden;

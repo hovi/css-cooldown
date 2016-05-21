@@ -4245,7 +4245,8 @@
   width: 100px;
   border: 1px solid black;
   display: inline-block;
-  position: relative; }
+  position: relative;
+  z-index: 1; }
   .cooldown-basic .bottom, .cooldown-wrap .bottom {
     font-size: 14px;
     text-align: center;
@@ -4262,7 +4263,7 @@
     opacity: 0.1; }
     .cooldown-wrap .overlay-wrap > * {
       background-color: rgba(0, 255, 0, 0.5);
-      border-bottom-color: rgba(0, 255, 0, 0.5); }
+      border-color: rgba(0, 255, 0, 0.5); }
   .cooldown-wrap .overlay-wrap {
     box-sizing: border-box;
     height: 100%;
@@ -4278,7 +4279,6 @@
       width: 100%;
       border-bottom-style: solid;
       border-bottom-width: 0;
-      border-right-color: transparent;
       border-right-style: solid;
       border-right-width: 0; }
       .cooldown-wrap .overlay-wrap > *.q1 {
@@ -4300,6 +4300,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 100vmin; }
   .cooldown-wrap.p2deg .overlay-wrap {
     transform: rotate(2deg); }
@@ -4308,6 +4309,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 200.06095vmin; }
   .cooldown-wrap.p3deg .overlay-wrap {
     transform: rotate(3deg); }
@@ -4316,6 +4318,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 300.24397vmin; }
   .cooldown-wrap.p4deg .overlay-wrap {
     transform: rotate(4deg); }
@@ -4324,6 +4327,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 400.61044vmin; }
   .cooldown-wrap.p5deg .overlay-wrap {
     transform: rotate(5deg); }
@@ -4332,6 +4336,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 501.22222vmin; }
   .cooldown-wrap.p6deg .overlay-wrap {
     transform: rotate(6deg); }
@@ -4340,6 +4345,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 602.14176vmin; }
   .cooldown-wrap.p7deg .overlay-wrap {
     transform: rotate(7deg); }
@@ -4348,6 +4354,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 703.43228vmin; }
   .cooldown-wrap.p8deg .overlay-wrap {
     transform: rotate(8deg); }
@@ -4356,6 +4363,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 805.1579vmin; }
   .cooldown-wrap.p9deg .overlay-wrap {
     transform: rotate(9deg); }
@@ -4364,6 +4372,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 907.38385vmin; }
   .cooldown-wrap.p10deg .overlay-wrap {
     transform: rotate(10deg); }
@@ -4372,6 +4381,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1010.1766vmin; }
   .cooldown-wrap.p11deg .overlay-wrap {
     transform: rotate(11deg); }
@@ -4380,6 +4390,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1113.60405vmin; }
   .cooldown-wrap.p12deg .overlay-wrap {
     transform: rotate(12deg); }
@@ -4388,6 +4399,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1217.73573vmin; }
   .cooldown-wrap.p13deg .overlay-wrap {
     transform: rotate(13deg); }
@@ -4396,6 +4408,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1322.64298vmin; }
   .cooldown-wrap.p14deg .overlay-wrap {
     transform: rotate(14deg); }
@@ -4404,6 +4417,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1428.39917vmin; }
   .cooldown-wrap.p15deg .overlay-wrap {
     transform: rotate(15deg); }
@@ -4412,6 +4426,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1535.0799vmin; }
   .cooldown-wrap.p16deg .overlay-wrap {
     transform: rotate(16deg); }
@@ -4420,6 +4435,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1642.76322vmin; }
   .cooldown-wrap.p17deg .overlay-wrap {
     transform: rotate(17deg); }
@@ -4428,6 +4444,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1751.5299vmin; }
   .cooldown-wrap.p18deg .overlay-wrap {
     transform: rotate(18deg); }
@@ -4436,6 +4453,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1861.46369vmin; }
   .cooldown-wrap.p19deg .overlay-wrap {
     transform: rotate(19deg); }
@@ -4444,6 +4462,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1972.65158vmin; }
   .cooldown-wrap.p20deg .overlay-wrap {
     transform: rotate(20deg); }
@@ -4452,6 +4471,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 2085.18408vmin; }
   .cooldown-wrap.p21deg .overlay-wrap {
     transform: rotate(21deg); }
@@ -4460,6 +4480,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 2199.15558vmin; }
   .cooldown-wrap.p22deg .overlay-wrap {
     transform: rotate(22deg); }
@@ -4468,6 +4489,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 2314.6647vmin; }
   .cooldown-wrap.p23deg .overlay-wrap {
     transform: rotate(23deg); }
@@ -4476,6 +4498,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 2431.81459vmin; }
   .cooldown-wrap.p24deg .overlay-wrap {
     transform: rotate(24deg); }
@@ -4484,6 +4507,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 2550.71343vmin; }
   .cooldown-wrap.p25deg .overlay-wrap {
     transform: rotate(25deg); }
@@ -4492,6 +4516,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 2671.47479vmin; }
   .cooldown-wrap.p26deg .overlay-wrap {
     transform: rotate(26deg); }
@@ -4500,6 +4525,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 2794.21813vmin; }
   .cooldown-wrap.p27deg .overlay-wrap {
     transform: rotate(27deg); }
@@ -4508,6 +4534,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 2919.06935vmin; }
   .cooldown-wrap.p28deg .overlay-wrap {
     transform: rotate(28deg); }
@@ -4516,6 +4543,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 3046.1613vmin; }
   .cooldown-wrap.p29deg .overlay-wrap {
     transform: rotate(29deg); }
@@ -4524,6 +4552,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 3175.63443vmin; }
   .cooldown-wrap.p30deg .overlay-wrap {
     transform: rotate(30deg); }
@@ -4532,6 +4561,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 3307.63748vmin; }
   .cooldown-wrap.p31deg .overlay-wrap {
     transform: rotate(31deg); }
@@ -4540,6 +4570,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 3442.32818vmin; }
   .cooldown-wrap.p32deg .overlay-wrap {
     transform: rotate(32deg); }
@@ -4548,6 +4579,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 3579.87412vmin; }
   .cooldown-wrap.p33deg .overlay-wrap {
     transform: rotate(33deg); }
@@ -4556,6 +4588,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 3720.45361vmin; }
   .cooldown-wrap.p34deg .overlay-wrap {
     transform: rotate(34deg); }
@@ -4564,6 +4597,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 3864.25671vmin; }
   .cooldown-wrap.p35deg .overlay-wrap {
     transform: rotate(35deg); }
@@ -4572,6 +4606,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 4011.4863vmin; }
   .cooldown-wrap.p36deg .overlay-wrap {
     transform: rotate(36deg); }
@@ -4580,6 +4615,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 4162.35936vmin; }
   .cooldown-wrap.p37deg .overlay-wrap {
     transform: rotate(37deg); }
@@ -4588,6 +4624,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 4317.10826vmin; }
   .cooldown-wrap.p38deg .overlay-wrap {
     transform: rotate(38deg); }
@@ -4596,6 +4633,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 4475.98236vmin; }
   .cooldown-wrap.p39deg .overlay-wrap {
     transform: rotate(39deg); }
@@ -4604,6 +4642,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 4639.24962vmin; }
   .cooldown-wrap.p40deg .overlay-wrap {
     transform: rotate(40deg); }
@@ -4612,6 +4651,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 4807.19857vmin; }
   .cooldown-wrap.p41deg .overlay-wrap {
     transform: rotate(41deg); }
@@ -4620,6 +4660,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 4980.14039vmin; }
   .cooldown-wrap.p42deg .overlay-wrap {
     transform: rotate(42deg); }
@@ -4628,6 +4669,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 5158.41132vmin; }
   .cooldown-wrap.p43deg .overlay-wrap {
     transform: rotate(43deg); }
@@ -4636,6 +4678,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 5342.37535vmin; }
   .cooldown-wrap.p44deg .overlay-wrap {
     transform: rotate(44deg); }
@@ -4644,6 +4687,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 5532.42729vmin; }
   .cooldown-wrap.p45deg .overlay-wrap {
     transform: rotate(45deg); }
@@ -4652,6 +4696,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 5728.99617vmin; }
   .cooldown-wrap.p46deg .overlay-wrap {
     transform: rotate(46deg); }
@@ -4660,6 +4705,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 5932.5492vmin; }
   .cooldown-wrap.p47deg .overlay-wrap {
     transform: rotate(47deg); }
@@ -4668,6 +4714,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 6143.59623vmin; }
   .cooldown-wrap.p48deg .overlay-wrap {
     transform: rotate(48deg); }
@@ -4676,6 +4723,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 6362.69484vmin; }
   .cooldown-wrap.p49deg .overlay-wrap {
     transform: rotate(49deg); }
@@ -4684,6 +4732,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 6590.45619vmin; }
   .cooldown-wrap.p50deg .overlay-wrap {
     transform: rotate(50deg); }
@@ -4692,6 +4741,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 6827.55176vmin; }
   .cooldown-wrap.p51deg .overlay-wrap {
     transform: rotate(51deg); }
@@ -4700,6 +4750,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 7074.72107vmin; }
   .cooldown-wrap.p52deg .overlay-wrap {
     transform: rotate(52deg); }
@@ -4708,6 +4759,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 7332.7807vmin; }
   .cooldown-wrap.p53deg .overlay-wrap {
     transform: rotate(53deg); }
@@ -4716,6 +4768,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 7602.63469vmin; }
   .cooldown-wrap.p54deg .overlay-wrap {
     transform: rotate(54deg); }
@@ -4724,6 +4777,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 7885.28675vmin; }
   .cooldown-wrap.p55deg .overlay-wrap {
     transform: rotate(55deg); }
@@ -4732,6 +4786,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 8181.85445vmin; }
   .cooldown-wrap.p56deg .overlay-wrap {
     transform: rotate(56deg); }
@@ -4740,6 +4795,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 8493.5861vmin; }
   .cooldown-wrap.p57deg .overlay-wrap {
     transform: rotate(57deg); }
@@ -4748,6 +4804,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 8821.88047vmin; }
   .cooldown-wrap.p58deg .overlay-wrap {
     transform: rotate(58deg); }
@@ -4756,6 +4813,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 9168.31038vmin; }
   .cooldown-wrap.p59deg .overlay-wrap {
     transform: rotate(59deg); }
@@ -4764,6 +4822,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 9534.65077vmin; }
   .cooldown-wrap.p60deg .overlay-wrap {
     transform: rotate(60deg); }
@@ -4772,6 +4831,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 9922.91244vmin; }
   .cooldown-wrap.p61deg .overlay-wrap {
     transform: rotate(61deg); }
@@ -4780,6 +4840,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 10335.38267vmin; }
   .cooldown-wrap.p62deg .overlay-wrap {
     transform: rotate(62deg); }
@@ -4788,6 +4849,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 10774.67471vmin; }
   .cooldown-wrap.p63deg .overlay-wrap {
     transform: rotate(63deg); }
@@ -4796,6 +4858,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 11243.78806vmin; }
   .cooldown-wrap.p64deg .overlay-wrap {
     transform: rotate(64deg); }
@@ -4804,6 +4867,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 11746.18285vmin; }
   .cooldown-wrap.p65deg .overlay-wrap {
     transform: rotate(65deg); }
@@ -4812,6 +4876,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 12285.87193vmin; }
   .cooldown-wrap.p66deg .overlay-wrap {
     transform: rotate(66deg); }
@@ -4820,6 +4885,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 12867.53607vmin; }
   .cooldown-wrap.p67deg .overlay-wrap {
     transform: rotate(67deg); }
@@ -4828,6 +4894,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 13496.66917vmin; }
   .cooldown-wrap.p68deg .overlay-wrap {
     transform: rotate(68deg); }
@@ -4836,6 +4903,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 14179.76309vmin; }
   .cooldown-wrap.p69deg .overlay-wrap {
     transform: rotate(69deg); }
@@ -4844,6 +4912,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 14924.54526vmin; }
   .cooldown-wrap.p70deg .overlay-wrap {
     transform: rotate(70deg); }
@@ -4852,6 +4921,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 15740.2876vmin; }
   .cooldown-wrap.p71deg .overlay-wrap {
     transform: rotate(71deg); }
@@ -4860,6 +4930,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 16638.21298vmin; }
   .cooldown-wrap.p72deg .overlay-wrap {
     transform: rotate(72deg); }
@@ -4868,6 +4939,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 17632.03718vmin; }
   .cooldown-wrap.p73deg .overlay-wrap {
     transform: rotate(73deg); }
@@ -4876,6 +4948,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 18738.70211vmin; }
   .cooldown-wrap.p74deg .overlay-wrap {
     transform: rotate(74deg); }
@@ -4884,6 +4957,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 19979.38398vmin; }
   .cooldown-wrap.p75deg .overlay-wrap {
     transform: rotate(75deg); }
@@ -4892,6 +4966,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 21380.90477vmin; }
   .cooldown-wrap.p76deg .overlay-wrap {
     transform: rotate(76deg); }
@@ -4900,6 +4975,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 22977.74859vmin; }
   .cooldown-wrap.p77deg .overlay-wrap {
     transform: rotate(77deg); }
@@ -4908,6 +4984,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 24815.00868vmin; }
   .cooldown-wrap.p78deg .overlay-wrap {
     transform: rotate(78deg); }
@@ -4916,6 +4993,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 26952.80786vmin; }
   .cooldown-wrap.p79deg .overlay-wrap {
     transform: rotate(79deg); }
@@ -4924,6 +5002,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 29473.13023vmin; }
   .cooldown-wrap.p80deg .overlay-wrap {
     transform: rotate(80deg); }
@@ -4932,6 +5011,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 32490.7518vmin; }
   .cooldown-wrap.p81deg .overlay-wrap {
     transform: rotate(81deg); }
@@ -4940,6 +5020,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 36171.45822vmin; }
   .cooldown-wrap.p82deg .overlay-wrap {
     transform: rotate(82deg); }
@@ -4948,6 +5029,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 40763.92586vmin; }
   .cooldown-wrap.p83deg .overlay-wrap {
     transform: rotate(83deg); }
@@ -4956,6 +5038,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 46658.92946vmin; }
   .cooldown-wrap.p84deg .overlay-wrap {
     transform: rotate(84deg); }
@@ -4964,6 +5047,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 54507.75748vmin; }
   .cooldown-wrap.p85deg .overlay-wrap {
     transform: rotate(85deg); }
@@ -4972,6 +5056,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 65482.72582vmin; }
   .cooldown-wrap.p86deg .overlay-wrap {
     transform: rotate(86deg); }
@@ -4980,6 +5065,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 81928.46215vmin; }
   .cooldown-wrap.p87deg .overlay-wrap {
     transform: rotate(87deg); }
@@ -4988,6 +5074,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 109315.75892vmin; }
   .cooldown-wrap.p88deg .overlay-wrap {
     transform: rotate(88deg); }
@@ -4996,6 +5083,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 164056.98526vmin; }
   .cooldown-wrap.p89deg .overlay-wrap {
     transform: rotate(89deg); }
@@ -5004,6 +5092,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 328213.97052vmin; }
   .cooldown-wrap.p90deg .overlay-wrap {
     transform: rotate(0deg); }
@@ -5016,6 +5105,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 100vmin; }
     .cooldown-wrap.p91deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5026,6 +5116,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 200.06095vmin; }
     .cooldown-wrap.p92deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5036,6 +5127,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 300.24397vmin; }
     .cooldown-wrap.p93deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5046,6 +5138,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 400.61044vmin; }
     .cooldown-wrap.p94deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5056,6 +5149,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 501.22222vmin; }
     .cooldown-wrap.p95deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5066,6 +5160,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 602.14176vmin; }
     .cooldown-wrap.p96deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5076,6 +5171,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 703.43228vmin; }
     .cooldown-wrap.p97deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5086,6 +5182,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 805.1579vmin; }
     .cooldown-wrap.p98deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5096,6 +5193,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 907.38385vmin; }
     .cooldown-wrap.p99deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5106,6 +5204,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1010.1766vmin; }
     .cooldown-wrap.p100deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5116,6 +5215,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1113.60405vmin; }
     .cooldown-wrap.p101deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5126,6 +5226,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1217.73573vmin; }
     .cooldown-wrap.p102deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5136,6 +5237,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1322.64298vmin; }
     .cooldown-wrap.p103deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5146,6 +5248,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1428.39917vmin; }
     .cooldown-wrap.p104deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5156,6 +5259,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1535.0799vmin; }
     .cooldown-wrap.p105deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5166,6 +5270,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1642.76322vmin; }
     .cooldown-wrap.p106deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5176,6 +5281,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1751.5299vmin; }
     .cooldown-wrap.p107deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5186,6 +5292,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1861.46369vmin; }
     .cooldown-wrap.p108deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5196,6 +5303,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1972.65158vmin; }
     .cooldown-wrap.p109deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5206,6 +5314,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 2085.18408vmin; }
     .cooldown-wrap.p110deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5216,6 +5325,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 2199.15558vmin; }
     .cooldown-wrap.p111deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5226,6 +5336,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 2314.6647vmin; }
     .cooldown-wrap.p112deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5236,6 +5347,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 2431.81459vmin; }
     .cooldown-wrap.p113deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5246,6 +5358,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 2550.71343vmin; }
     .cooldown-wrap.p114deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5256,6 +5369,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 2671.47479vmin; }
     .cooldown-wrap.p115deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5266,6 +5380,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 2794.21813vmin; }
     .cooldown-wrap.p116deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5276,6 +5391,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 2919.06935vmin; }
     .cooldown-wrap.p117deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5286,6 +5402,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 3046.1613vmin; }
     .cooldown-wrap.p118deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5296,6 +5413,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 3175.63443vmin; }
     .cooldown-wrap.p119deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5306,6 +5424,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 3307.63748vmin; }
     .cooldown-wrap.p120deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5316,6 +5435,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 3442.32818vmin; }
     .cooldown-wrap.p121deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5326,6 +5446,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 3579.87412vmin; }
     .cooldown-wrap.p122deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5336,6 +5457,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 3720.45361vmin; }
     .cooldown-wrap.p123deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5346,6 +5468,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 3864.25671vmin; }
     .cooldown-wrap.p124deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5356,6 +5479,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 4011.4863vmin; }
     .cooldown-wrap.p125deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5366,6 +5490,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 4162.35936vmin; }
     .cooldown-wrap.p126deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5376,6 +5501,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 4317.10826vmin; }
     .cooldown-wrap.p127deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5386,6 +5512,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 4475.98236vmin; }
     .cooldown-wrap.p128deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5396,6 +5523,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 4639.24962vmin; }
     .cooldown-wrap.p129deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5406,6 +5534,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 4807.19857vmin; }
     .cooldown-wrap.p130deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5416,6 +5545,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 4980.14039vmin; }
     .cooldown-wrap.p131deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5426,6 +5556,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 5158.41132vmin; }
     .cooldown-wrap.p132deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5436,6 +5567,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 5342.37535vmin; }
     .cooldown-wrap.p133deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5446,6 +5578,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 5532.42729vmin; }
     .cooldown-wrap.p134deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5456,6 +5589,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 5728.99617vmin; }
     .cooldown-wrap.p135deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5466,6 +5600,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 5932.5492vmin; }
     .cooldown-wrap.p136deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5476,6 +5611,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 6143.59623vmin; }
     .cooldown-wrap.p137deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5486,6 +5622,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 6362.69484vmin; }
     .cooldown-wrap.p138deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5496,6 +5633,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 6590.45619vmin; }
     .cooldown-wrap.p139deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5506,6 +5644,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 6827.55176vmin; }
     .cooldown-wrap.p140deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5516,6 +5655,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 7074.72107vmin; }
     .cooldown-wrap.p141deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5526,6 +5666,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 7332.7807vmin; }
     .cooldown-wrap.p142deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5536,6 +5677,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 7602.63469vmin; }
     .cooldown-wrap.p143deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5546,6 +5688,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 7885.28675vmin; }
     .cooldown-wrap.p144deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5556,6 +5699,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 8181.85445vmin; }
     .cooldown-wrap.p145deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5566,6 +5710,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 8493.5861vmin; }
     .cooldown-wrap.p146deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5576,6 +5721,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 8821.88047vmin; }
     .cooldown-wrap.p147deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5586,6 +5732,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 9168.31038vmin; }
     .cooldown-wrap.p148deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5596,6 +5743,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 9534.65077vmin; }
     .cooldown-wrap.p149deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5606,6 +5754,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 9922.91244vmin; }
     .cooldown-wrap.p150deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5616,6 +5765,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 10335.38267vmin; }
     .cooldown-wrap.p151deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5626,6 +5776,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 10774.67471vmin; }
     .cooldown-wrap.p152deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5636,6 +5787,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 11243.78806vmin; }
     .cooldown-wrap.p153deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5646,6 +5798,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 11746.18285vmin; }
     .cooldown-wrap.p154deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5656,6 +5809,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 12285.87193vmin; }
     .cooldown-wrap.p155deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5666,6 +5820,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 12867.53607vmin; }
     .cooldown-wrap.p156deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5676,6 +5831,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 13496.66917vmin; }
     .cooldown-wrap.p157deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5686,6 +5842,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 14179.76309vmin; }
     .cooldown-wrap.p158deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5696,6 +5853,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 14924.54526vmin; }
     .cooldown-wrap.p159deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5706,6 +5864,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 15740.2876vmin; }
     .cooldown-wrap.p160deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5716,6 +5875,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 16638.21298vmin; }
     .cooldown-wrap.p161deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5726,6 +5886,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 17632.03718vmin; }
     .cooldown-wrap.p162deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5736,6 +5897,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 18738.70211vmin; }
     .cooldown-wrap.p163deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5746,6 +5908,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 19979.38398vmin; }
     .cooldown-wrap.p164deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5756,6 +5919,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 21380.90477vmin; }
     .cooldown-wrap.p165deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5766,6 +5930,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 22977.74859vmin; }
     .cooldown-wrap.p166deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5776,6 +5941,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 24815.00868vmin; }
     .cooldown-wrap.p167deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5786,6 +5952,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 26952.80786vmin; }
     .cooldown-wrap.p168deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5796,6 +5963,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 29473.13023vmin; }
     .cooldown-wrap.p169deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5806,6 +5974,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 32490.7518vmin; }
     .cooldown-wrap.p170deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5816,6 +5985,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 36171.45822vmin; }
     .cooldown-wrap.p171deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5826,6 +5996,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 40763.92586vmin; }
     .cooldown-wrap.p172deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5836,6 +6007,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 46658.92946vmin; }
     .cooldown-wrap.p173deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5846,6 +6018,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 54507.75748vmin; }
     .cooldown-wrap.p174deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5856,6 +6029,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 65482.72582vmin; }
     .cooldown-wrap.p175deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5866,6 +6040,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 81928.46215vmin; }
     .cooldown-wrap.p176deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5876,6 +6051,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 109315.75892vmin; }
     .cooldown-wrap.p177deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5886,6 +6062,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 164056.98526vmin; }
     .cooldown-wrap.p178deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5896,6 +6073,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 328213.97052vmin; }
     .cooldown-wrap.p179deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5912,6 +6090,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 100vmin; }
     .cooldown-wrap.p181deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5924,6 +6103,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 200.06095vmin; }
     .cooldown-wrap.p182deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5936,6 +6116,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 300.24397vmin; }
     .cooldown-wrap.p183deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5948,6 +6129,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 400.61044vmin; }
     .cooldown-wrap.p184deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5960,6 +6142,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 501.22222vmin; }
     .cooldown-wrap.p185deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5972,6 +6155,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 602.14176vmin; }
     .cooldown-wrap.p186deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5984,6 +6168,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 703.43228vmin; }
     .cooldown-wrap.p187deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -5996,6 +6181,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 805.1579vmin; }
     .cooldown-wrap.p188deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6008,6 +6194,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 907.38385vmin; }
     .cooldown-wrap.p189deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6020,6 +6207,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1010.1766vmin; }
     .cooldown-wrap.p190deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6032,6 +6220,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1113.60405vmin; }
     .cooldown-wrap.p191deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6044,6 +6233,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1217.73573vmin; }
     .cooldown-wrap.p192deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6056,6 +6246,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1322.64298vmin; }
     .cooldown-wrap.p193deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6068,6 +6259,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1428.39917vmin; }
     .cooldown-wrap.p194deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6080,6 +6272,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1535.0799vmin; }
     .cooldown-wrap.p195deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6092,6 +6285,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1642.76322vmin; }
     .cooldown-wrap.p196deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6104,6 +6298,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1751.5299vmin; }
     .cooldown-wrap.p197deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6116,6 +6311,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1861.46369vmin; }
     .cooldown-wrap.p198deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6128,6 +6324,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1972.65158vmin; }
     .cooldown-wrap.p199deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6140,6 +6337,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 2085.18408vmin; }
     .cooldown-wrap.p200deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6152,6 +6350,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 2199.15558vmin; }
     .cooldown-wrap.p201deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6164,6 +6363,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 2314.6647vmin; }
     .cooldown-wrap.p202deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6176,6 +6376,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 2431.81459vmin; }
     .cooldown-wrap.p203deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6188,6 +6389,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 2550.71343vmin; }
     .cooldown-wrap.p204deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6200,6 +6402,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 2671.47479vmin; }
     .cooldown-wrap.p205deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6212,6 +6415,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 2794.21813vmin; }
     .cooldown-wrap.p206deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6224,6 +6428,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 2919.06935vmin; }
     .cooldown-wrap.p207deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6236,6 +6441,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 3046.1613vmin; }
     .cooldown-wrap.p208deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6248,6 +6454,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 3175.63443vmin; }
     .cooldown-wrap.p209deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6260,6 +6467,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 3307.63748vmin; }
     .cooldown-wrap.p210deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6272,6 +6480,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 3442.32818vmin; }
     .cooldown-wrap.p211deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6284,6 +6493,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 3579.87412vmin; }
     .cooldown-wrap.p212deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6296,6 +6506,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 3720.45361vmin; }
     .cooldown-wrap.p213deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6308,6 +6519,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 3864.25671vmin; }
     .cooldown-wrap.p214deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6320,6 +6532,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 4011.4863vmin; }
     .cooldown-wrap.p215deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6332,6 +6545,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 4162.35936vmin; }
     .cooldown-wrap.p216deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6344,6 +6558,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 4317.10826vmin; }
     .cooldown-wrap.p217deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6356,6 +6571,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 4475.98236vmin; }
     .cooldown-wrap.p218deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6368,6 +6584,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 4639.24962vmin; }
     .cooldown-wrap.p219deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6380,6 +6597,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 4807.19857vmin; }
     .cooldown-wrap.p220deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6392,6 +6610,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 4980.14039vmin; }
     .cooldown-wrap.p221deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6404,6 +6623,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 5158.41132vmin; }
     .cooldown-wrap.p222deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6416,6 +6636,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 5342.37535vmin; }
     .cooldown-wrap.p223deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6428,6 +6649,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 5532.42729vmin; }
     .cooldown-wrap.p224deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6440,6 +6662,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 5728.99617vmin; }
     .cooldown-wrap.p225deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6452,6 +6675,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 5932.5492vmin; }
     .cooldown-wrap.p226deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6464,6 +6688,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 6143.59623vmin; }
     .cooldown-wrap.p227deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6476,6 +6701,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 6362.69484vmin; }
     .cooldown-wrap.p228deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6488,6 +6714,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 6590.45619vmin; }
     .cooldown-wrap.p229deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6500,6 +6727,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 6827.55176vmin; }
     .cooldown-wrap.p230deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6512,6 +6740,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 7074.72107vmin; }
     .cooldown-wrap.p231deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6524,6 +6753,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 7332.7807vmin; }
     .cooldown-wrap.p232deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6536,6 +6766,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 7602.63469vmin; }
     .cooldown-wrap.p233deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6548,6 +6779,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 7885.28675vmin; }
     .cooldown-wrap.p234deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6560,6 +6792,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 8181.85445vmin; }
     .cooldown-wrap.p235deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6572,6 +6805,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 8493.5861vmin; }
     .cooldown-wrap.p236deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6584,6 +6818,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 8821.88047vmin; }
     .cooldown-wrap.p237deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6596,6 +6831,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 9168.31038vmin; }
     .cooldown-wrap.p238deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6608,6 +6844,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 9534.65077vmin; }
     .cooldown-wrap.p239deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6620,6 +6857,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 9922.91244vmin; }
     .cooldown-wrap.p240deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6632,6 +6870,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 10335.38267vmin; }
     .cooldown-wrap.p241deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6644,6 +6883,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 10774.67471vmin; }
     .cooldown-wrap.p242deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6656,6 +6896,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 11243.78806vmin; }
     .cooldown-wrap.p243deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6668,6 +6909,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 11746.18285vmin; }
     .cooldown-wrap.p244deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6680,6 +6922,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 12285.87193vmin; }
     .cooldown-wrap.p245deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6692,6 +6935,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 12867.53607vmin; }
     .cooldown-wrap.p246deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6704,6 +6948,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 13496.66917vmin; }
     .cooldown-wrap.p247deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6716,6 +6961,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 14179.76309vmin; }
     .cooldown-wrap.p248deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6728,6 +6974,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 14924.54526vmin; }
     .cooldown-wrap.p249deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6740,6 +6987,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 15740.2876vmin; }
     .cooldown-wrap.p250deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6752,6 +7000,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 16638.21298vmin; }
     .cooldown-wrap.p251deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6764,6 +7013,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 17632.03718vmin; }
     .cooldown-wrap.p252deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6776,6 +7026,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 18738.70211vmin; }
     .cooldown-wrap.p253deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6788,6 +7039,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 19979.38398vmin; }
     .cooldown-wrap.p254deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6800,6 +7052,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 21380.90477vmin; }
     .cooldown-wrap.p255deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6812,6 +7065,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 22977.74859vmin; }
     .cooldown-wrap.p256deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6824,6 +7078,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 24815.00868vmin; }
     .cooldown-wrap.p257deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6836,6 +7091,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 26952.80786vmin; }
     .cooldown-wrap.p258deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6848,6 +7104,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 29473.13023vmin; }
     .cooldown-wrap.p259deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6860,6 +7117,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 32490.7518vmin; }
     .cooldown-wrap.p260deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6872,6 +7130,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 36171.45822vmin; }
     .cooldown-wrap.p261deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6884,6 +7143,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 40763.92586vmin; }
     .cooldown-wrap.p262deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6896,6 +7156,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 46658.92946vmin; }
     .cooldown-wrap.p263deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6908,6 +7169,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 54507.75748vmin; }
     .cooldown-wrap.p264deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6920,6 +7182,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 65482.72582vmin; }
     .cooldown-wrap.p265deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6932,6 +7195,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 81928.46215vmin; }
     .cooldown-wrap.p266deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6944,6 +7208,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 109315.75892vmin; }
     .cooldown-wrap.p267deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6956,6 +7221,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 164056.98526vmin; }
     .cooldown-wrap.p268deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6968,6 +7234,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 328213.97052vmin; }
     .cooldown-wrap.p269deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -6988,6 +7255,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 100vmin; }
     .cooldown-wrap.p271deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7002,6 +7270,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 200.06095vmin; }
     .cooldown-wrap.p272deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7016,6 +7285,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 300.24397vmin; }
     .cooldown-wrap.p273deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7030,6 +7300,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 400.61044vmin; }
     .cooldown-wrap.p274deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7044,6 +7315,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 501.22222vmin; }
     .cooldown-wrap.p275deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7058,6 +7330,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 602.14176vmin; }
     .cooldown-wrap.p276deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7072,6 +7345,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 703.43228vmin; }
     .cooldown-wrap.p277deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7086,6 +7360,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 805.1579vmin; }
     .cooldown-wrap.p278deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7100,6 +7375,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 907.38385vmin; }
     .cooldown-wrap.p279deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7114,6 +7390,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1010.1766vmin; }
     .cooldown-wrap.p280deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7128,6 +7405,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1113.60405vmin; }
     .cooldown-wrap.p281deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7142,6 +7420,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1217.73573vmin; }
     .cooldown-wrap.p282deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7156,6 +7435,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1322.64298vmin; }
     .cooldown-wrap.p283deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7170,6 +7450,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1428.39917vmin; }
     .cooldown-wrap.p284deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7184,6 +7465,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1535.0799vmin; }
     .cooldown-wrap.p285deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7198,6 +7480,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1642.76322vmin; }
     .cooldown-wrap.p286deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7212,6 +7495,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1751.5299vmin; }
     .cooldown-wrap.p287deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7226,6 +7510,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1861.46369vmin; }
     .cooldown-wrap.p288deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7240,6 +7525,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 1972.65158vmin; }
     .cooldown-wrap.p289deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7254,6 +7540,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 2085.18408vmin; }
     .cooldown-wrap.p290deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7268,6 +7555,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 2199.15558vmin; }
     .cooldown-wrap.p291deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7282,6 +7570,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 2314.6647vmin; }
     .cooldown-wrap.p292deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7296,6 +7585,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 2431.81459vmin; }
     .cooldown-wrap.p293deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7310,6 +7600,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 2550.71343vmin; }
     .cooldown-wrap.p294deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7324,6 +7615,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 2671.47479vmin; }
     .cooldown-wrap.p295deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7338,6 +7630,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 2794.21813vmin; }
     .cooldown-wrap.p296deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7352,6 +7645,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 2919.06935vmin; }
     .cooldown-wrap.p297deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7366,6 +7660,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 3046.1613vmin; }
     .cooldown-wrap.p298deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7380,6 +7675,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 3175.63443vmin; }
     .cooldown-wrap.p299deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7394,6 +7690,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 3307.63748vmin; }
     .cooldown-wrap.p300deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7408,6 +7705,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 3442.32818vmin; }
     .cooldown-wrap.p301deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7422,6 +7720,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 3579.87412vmin; }
     .cooldown-wrap.p302deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7436,6 +7735,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 3720.45361vmin; }
     .cooldown-wrap.p303deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7450,6 +7750,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 3864.25671vmin; }
     .cooldown-wrap.p304deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7464,6 +7765,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 4011.4863vmin; }
     .cooldown-wrap.p305deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7478,6 +7780,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 4162.35936vmin; }
     .cooldown-wrap.p306deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7492,6 +7795,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 4317.10826vmin; }
     .cooldown-wrap.p307deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7506,6 +7810,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 4475.98236vmin; }
     .cooldown-wrap.p308deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7520,6 +7825,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 4639.24962vmin; }
     .cooldown-wrap.p309deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7534,6 +7840,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 4807.19857vmin; }
     .cooldown-wrap.p310deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7548,6 +7855,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 4980.14039vmin; }
     .cooldown-wrap.p311deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7562,6 +7870,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 5158.41132vmin; }
     .cooldown-wrap.p312deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7576,6 +7885,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 5342.37535vmin; }
     .cooldown-wrap.p313deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7590,6 +7900,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 5532.42729vmin; }
     .cooldown-wrap.p314deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7604,6 +7915,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 5728.99617vmin; }
     .cooldown-wrap.p315deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7618,6 +7930,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 5932.5492vmin; }
     .cooldown-wrap.p316deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7632,6 +7945,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 6143.59623vmin; }
     .cooldown-wrap.p317deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7646,6 +7960,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 6362.69484vmin; }
     .cooldown-wrap.p318deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7660,6 +7975,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 6590.45619vmin; }
     .cooldown-wrap.p319deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7674,6 +7990,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 6827.55176vmin; }
     .cooldown-wrap.p320deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7688,6 +8005,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 7074.72107vmin; }
     .cooldown-wrap.p321deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7702,6 +8020,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 7332.7807vmin; }
     .cooldown-wrap.p322deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7716,6 +8035,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 7602.63469vmin; }
     .cooldown-wrap.p323deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7730,6 +8050,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 7885.28675vmin; }
     .cooldown-wrap.p324deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7744,6 +8065,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 8181.85445vmin; }
     .cooldown-wrap.p325deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7758,6 +8080,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 8493.5861vmin; }
     .cooldown-wrap.p326deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7772,6 +8095,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 8821.88047vmin; }
     .cooldown-wrap.p327deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7786,6 +8110,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 9168.31038vmin; }
     .cooldown-wrap.p328deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7800,6 +8125,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 9534.65077vmin; }
     .cooldown-wrap.p329deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7814,6 +8140,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 9922.91244vmin; }
     .cooldown-wrap.p330deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7828,6 +8155,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 10335.38267vmin; }
     .cooldown-wrap.p331deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7842,6 +8170,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 10774.67471vmin; }
     .cooldown-wrap.p332deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7856,6 +8185,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 11243.78806vmin; }
     .cooldown-wrap.p333deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7870,6 +8200,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 11746.18285vmin; }
     .cooldown-wrap.p334deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7884,6 +8215,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 12285.87193vmin; }
     .cooldown-wrap.p335deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7898,6 +8230,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 12867.53607vmin; }
     .cooldown-wrap.p336deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7912,6 +8245,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 13496.66917vmin; }
     .cooldown-wrap.p337deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7926,6 +8260,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 14179.76309vmin; }
     .cooldown-wrap.p338deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7940,6 +8275,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 14924.54526vmin; }
     .cooldown-wrap.p339deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7954,6 +8290,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 15740.2876vmin; }
     .cooldown-wrap.p340deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7968,6 +8305,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 16638.21298vmin; }
     .cooldown-wrap.p341deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7982,6 +8320,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 17632.03718vmin; }
     .cooldown-wrap.p342deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -7996,6 +8335,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 18738.70211vmin; }
     .cooldown-wrap.p343deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -8010,6 +8350,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 19979.38398vmin; }
     .cooldown-wrap.p344deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -8024,6 +8365,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 21380.90477vmin; }
     .cooldown-wrap.p345deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -8038,6 +8380,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 22977.74859vmin; }
     .cooldown-wrap.p346deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -8052,6 +8395,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 24815.00868vmin; }
     .cooldown-wrap.p347deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -8066,6 +8410,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 26952.80786vmin; }
     .cooldown-wrap.p348deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -8080,6 +8425,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 29473.13023vmin; }
     .cooldown-wrap.p349deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -8094,6 +8440,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 32490.7518vmin; }
     .cooldown-wrap.p350deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -8108,6 +8455,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 36171.45822vmin; }
     .cooldown-wrap.p351deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -8122,6 +8470,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 40763.92586vmin; }
     .cooldown-wrap.p352deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -8136,6 +8485,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 46658.92946vmin; }
     .cooldown-wrap.p353deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -8150,6 +8500,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 54507.75748vmin; }
     .cooldown-wrap.p354deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -8164,6 +8515,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 65482.72582vmin; }
     .cooldown-wrap.p355deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -8178,6 +8530,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 81928.46215vmin; }
     .cooldown-wrap.p356deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -8192,6 +8545,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 109315.75892vmin; }
     .cooldown-wrap.p357deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -8206,6 +8560,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 164056.98526vmin; }
     .cooldown-wrap.p358deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -8220,6 +8575,7 @@
       height: 0;
       width: 0;
       border-bottom-width: 5728.99617vmin;
+      border-right-color: transparent;
       border-right-width: 328213.97052vmin; }
     .cooldown-wrap.p359deg .overlay-wrap .q1 {
       visibility: hidden; }
@@ -8263,11 +8619,11 @@
     opacity: 0.9; }
     .cooldown-wrap.red .overlay-wrap > * {
       background-color: red;
-      border-bottom-color: red; }
+      border-color: red; }
   .cooldown-wrap.blue .overlay-wrap {
     opacity: 0.5; }
     .cooldown-wrap.blue .overlay-wrap > * {
       background-color: blue;
-      border-bottom-color: blue; }
+      border-color: blue; }
 
 /*# sourceMappingURL=main.css.map */
