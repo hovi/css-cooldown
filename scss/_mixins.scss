@@ -2,87 +2,52 @@
 @import "settings";
 
 
-@mixing animateWrap($seconds, $color, $opacity) {
-    
+@mixin triangle-top-left($angle, $size) {
+    height: 0;
+    width: 0;
+    border-bottom-width: $size * tan($angle);
+    border-bottom-color: transparent;
+    border-right-width: $size;
 }
 
-@keyframes overlay-wrap-animate {
-    @for $percentage from 1 through 100 {
-        $angle90max: round($percentage * 3.6deg % 90deg);
-        #{$percentage * 1%} {
-            -webkit-transform: rotate(#{$angle90max});
-            transform: rotate(#{$angle90max});
-        } 
+
+@mixin beforeBorders($angle) {
+    transform: rotate($angle + 45deg);    
+    @if $angle >  0deg {
+        border-left-color: transparent;
+    }
+    @if $angle >  90deg {
+        border-bottom-color: transparent;
+    }
+    @if $angle > 180deg {
+        border-right-color: transparent;
+    }
+    @if $angle > 270deg {
+        border-top-color: transparent;
     }
 }
 
-@keyframes q4-animate {
-    @for $percentage from 0 through 360 {
-        $angle90max: round($percentage * 3.6deg % 90deg);
-        #{$percentage * 1%} {
-            @if $angle90max > 0deg {
-                background-color: transparent;
-                height: 0;
-                width: 0;
-                border-bottom-width: $border-size;
-                border-right-width: $border-size * tan($angle90max);
+@mixin cooldownByAngle($angle) {
+    $angle90max: $angle % 90deg;
+    &.p#{$angle} {
+        .overlay-wrap {
+            &:before {
+                @include beforeBorders($angle);
             }
-        } 
-    }
-}
-
-@keyframes q3-animate {
-    @for $percentage from 0 through 360 {
-        $angle: round($percentage * 3.6deg);
-        $angle90max: round($percentage * 3.6deg % 90deg);
-        #{$percentage * 1%} {
-            @if $angle >  270deg {
-                visibility: hidden;
+            &:after {
+                @include triangle-top-left($angle90max, $border-size);
             }
-        } 
-    }
-}
-
-@keyframes q2-animate {
-    @for $percentage from 0 through 360 {
-        $angle: round($percentage * 3.6deg);
-        $angle90max: round($percentage * 3.6deg % 90deg);
-        #{$percentage * 1%} {
-            @if $angle >  180deg {
-                visibility: hidden;
-            }
-        } 
-    }
-}
-
-@keyframes q1-animate {
-    @for $percentage from 0 through 360 {
-        $angle: round($percentage * 3.6deg);
-        $angle90max: round($percentage * 3.6deg % 90deg);
-        #{$percentage * 1%} {
-            @if $angle >  90deg {
-                visibility: hidden;
-            }
-        } 
-    }
-}
-
-@mixin cooldownWrapColors($color, $opacity) {
-    .overlay-wrap {
-        opacity: $opacity;
-        & > * {
-            background-color: $color;
-            border-color: $color;
         }
     }
 }
 
+
 @mixin cooldownWrap($color, $opacity) {
-    @include cooldownWrapColors($color, $opacity);
     box-sizing: border-box;
     overflow: hidden;
     $size: 100%;
     z-index: 1;
+    $border-size: 100vmin;
 
     .overlay-wrap {
         z-index: 0;
@@ -92,65 +57,58 @@
         position: relative;
         transform-origin: center center;
 
-        & > * {
+        &:before, &:after {
+            transform-origin: center center;
             box-sizing: border-box;
-            position: absolute;
+            content: ".";
             color: transparent;
-            display: block; 
-            height: $size;
-            width: $size;
-            
-            border-bottom-style: solid;
-            border-bottom-width: 0;
-            //border-right-color: transparent;
-            //border-color: transparent;
-            border-right-style: solid;
-            border-right-width: 0;
-            &.q1 {
-                left: $size / 2;
-                bottom: $size / 2;
-
-            }
-            &.q2 {
-                left: $size / 2;
-                top: $size / 2;
-            }
-            &.q3 {
-                right: $size / 2;
-                top: $size / 2;
-            }
-            &.q4 {
-                right: $size / 2;
-                bottom: $size / 2;
-            }
+            display: block;
+            height: 0px;
+            width: 0px;
+            position: absolute;
+            border-style: solid;
+        }
+        
+        &:before, &:after {
+            border-left-color: $color;
+            border-right-color: $color;
+            border-top-color: $color;
+            border-bottom-color: $color;
+        }
+        
+        &:after {
+            border-width: $border-size;
+            bottom: $size / 2;
+            right: $size / 2;
+            height: 0;
+            width: 0;
+            border-left: none;
+            border-top: none;
+        }
+        
+        &:before {
+            left: $size / 2;
+            top: $size / 2;
+            margin-top: -  $border-size;
+            margin-left: - $border-size;
+            border-width: $border-size;
+            border-left-color: red;
+            transform: rotate(45deg);
         }
     }
-    @for $i from 1deg through 360deg {
-        @include cooldownByAngle($i);
+    @for $angle from 0deg through 360deg {
+        @include cooldownByAngle($angle);
     }
     &.animated {
-        $anim-duration: 360s;
+        $anim-duration: 10s;
         .overlay-wrap {
-            animation-name: overlay-wrap-animate;
-            animation-duration: $anim-duration;
-            animation-iteration-count: infinite; 
-            .q4 {
-                animation-name: q4-animate;
+            &:before {
+                animation-name: overlay-wrap-before-animate;
                 animation-duration: $anim-duration;
                 animation-iteration-count: infinite; 
             }
-            .q3 {
-                animation-name: q3-animate;
-                animation-duration: $anim-duration;
-                animation-iteration-count: infinite; 
-            }
-            .q2 {
-                animation-name: q2-animate;
-                animation-duration: $anim-duration;
-                animation-iteration-count: infinite; 
-            }
-            .q1 {
-                animation-name: q1-animate;
+            &:after {
+                animation-name: overlay-wrap-after-animate;
                 animation-duration: $anim-duration;
                 animation-iteration-count: infinite; 
             }
@@ -158,49 +116,26 @@
     }
 }
 
-@mixin triangle-top-right($angle, $size) {
-    background-color: transparent;
-    height: 0;
-    width: 0;
-    border-bottom-width: $size;
-    border-right-color: transparent;
-    border-right-width: $size * tan($angle);
-}
 
-@mixin cooldownByAngle($angle) {
-    $angle: round($angle);
-    $angle90max: $angle % 90;
-    &.p#{$angle} {
-        .overlay-wrap {
-            transform: rotate(#{$angle90max});
-            * {
-                //@include triangle-top-right($angle90max, $border-size);
-            }
-            .q4 {
-                @if $angle90max > 0deg {
-                    @include triangle-top-right($angle90max, $border-size);
-                }
-            }   
-            @if $angle >=  90deg {
-                .q1 {
-                    visibility: hidden;
-                }
-            }
-            @if $angle >= 180deg {
-                .q2 {
-                    visibility: hidden;
-                }
-            }
-            @if $angle >= 270deg {
-                .q3 {
-                    visibility: hidden;
-                }
-            }
-            @if $angle >= 360deg {
-                .q4 {
-                    visibility: hidden;
-                }
-            }
-        }
+
+
+@keyframes overlay-wrap-before-animate {
+    @for $percentage from 1 through 100 {
+        $angle: round($percentage * 3.6deg);
+        $angle90max: round($percentage * 3.6deg % 90deg);
+        #{$percentage * 1%} {
+            @include beforeBorders($angle);
+        } 
     }
 }
+
+@keyframes overlay-wrap-after-animate {
+    @for $percentage from 1 through 100 {
+        $angle: round($percentage * 3.6deg);
+        $angle90max: round($percentage * 3.6deg % 90deg);
+        #{$percentage * 1%} {
+            @include triangle-top-left($angle90max, $border-size);
+        } 
+    }
+}
+

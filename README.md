@@ -1,4 +1,5 @@
 # css-cooldown
+
 Css component to display cooldown pie-like overlay
 
 Example:
@@ -10,10 +11,6 @@ http://codepen.io/hovi6337/pen/NNZzVo
 ```html
 <div class="cooldown-wrap r10deg">
   <div class="overlay-wrap">
-      <div class="q1"></div>
-      <div class="q2"></div>
-      <div class="q3"></div>
-      <div class="q4"></div>
   </div>
 </div>
 ```
@@ -66,10 +63,10 @@ You can customize css by using cooldownWrap mixin and set your own overlay-color
         border-radius: 50%;
     }
     &.red {
-        @include cooldownWrap(red, 1);
+        @include cooldownWrap(red, $overlay-opacity);
     }
     &.blue {
-        @include cooldownWrap(blue, 0.5);
+        @include cooldownWrap(blue, $overlay-opacity);
     }
 }
 ```

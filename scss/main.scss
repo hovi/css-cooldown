@@ -24,14 +24,16 @@
 
 .cooldown-wrap {
     @extend .cooldown-basic;
-    @include cooldownWrap($overlay-color, $overlay-opacity);
+    @include cooldownWrap($overlay-color, 1);
     &.circle {
         border-radius: 50%;
     }
     &.red {
-        @include cooldownWrapColors(red, 0.9);
+        @include cooldownWrap(red, $overlay-opacity);
+        //@include cooldownWrapColors(red, 0.9);
     }
     &.blue {
-        @include cooldownWrapColors(blue, 0.5);
+        @include cooldownWrap(blue, $overlay-opacity);
+        //@include cooldownWrapColors(blue, 0.5);
     }
 }
