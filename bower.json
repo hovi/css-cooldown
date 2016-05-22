@@ -1,0 +1,25 @@
+{
+  "name": "css-cooldown",
+  "homepage": "https://github.com/hovi/css-cooldown",
+  "authors": [
+    "Karel Hovorka <info@karel-hovorka.eu>"
+  ],
+  "description": "Css component to display cooldown pie-like overlay",
+  "main": "scss/_mixins.scss",
+  "keywords": [
+    "css",
+    "cooldown",
+    "progress",
+    "pie",
+    "component",
+    "scss"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
