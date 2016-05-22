@@ -1105,7 +1105,6 @@
       margin-top: -100vmin;
       margin-left: -100vmin;
       border-width: 100vmin;
-      border-left-color: red;
       transform: rotate(45deg); }
   .cooldown-wrap.p0deg .overlay-wrap:before {
     transform: rotate(45deg); }
@@ -4945,7 +4944,6 @@
         margin-top: -100vmin;
         margin-left: -100vmin;
         border-width: 100vmin;
-        border-left-color: red;
         transform: rotate(45deg); }
     .cooldown-wrap.red.p0deg .overlay-wrap:before {
       transform: rotate(45deg); }
@@ -8783,7 +8781,6 @@
         margin-top: -100vmin;
         margin-left: -100vmin;
         border-width: 100vmin;
-        border-left-color: red;
         transform: rotate(45deg); }
     .cooldown-wrap.blue.p0deg .overlay-wrap:before {
       transform: rotate(45deg); }
