@@ -20,6 +20,10 @@ Class r10deg tells current status of cooldown in degrees (10 in this case). 360 
 You can change from square to circle simply by setting border-radius: 50% to .cooldown-wrap element.
 
 
+## Animations
+
+I haven't managed to make pure-css animations yet (you can see for yourself), but you can animate using javascript and changing rXdeg class.
+
 ## Scss
 
 You can use compiled version or compile from scss sources.
